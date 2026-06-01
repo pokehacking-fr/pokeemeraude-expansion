@@ -32,39 +32,35 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	end
 
 FuchsiaCity_House2_Text_DoYouLikeToFish::
-	.string "I'm the FISHING GURU's older\n"
-	.string "brother.\p"
-	.string "I simply looove fishing!\n"
-	.string "I can't bear to go without.\p"
-	.string "Tell me, do you like to fish?$"
+	.string "Je suis le grand frère du MAITRE\n"
+	.string "PECHEUR!\p"
+	.string "Moi, mon truc, c'est la pêche!\p"
+	.string "T'aimes la pêche?$"
 
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
-	.string "Grand! I like your style.\n"
-	.string "I think we can be friends.\p"
-	.string "Take this and fish, young friend!$"
+	.string "T'as l'air de quelqu'un de bien!\p"
+	.string "Prends ça! Que la Grand' Pêche\n"
+	.string "soit avec toi!$"
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
-	.string "{PLAYER} received a GOOD ROD from\n"
-	.string "the FISHING GURU's brother.$"
+	.string "{PLAYER} reçoit la SUPER CANNE!$"
 
 FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
-	.string "Fishing is a way of life!\n"
-	.string "It is like the finest poetry.\p"
-	.string "A crummy OLD ROD could only catch\n"
-	.string "MAGIKARP, yes?\p"
-	.string "But with a GOOD ROD, you can\n"
-	.string "catch much better POKéMON.$"
+	.string "Pêcher, c'est la vie!\n"
+	.string "Et la vie, c'est la pêche!\p"
+	.string "Avec cette SUPER CANNE, tu vas\n"
+	.string "pouvoir attraper des\l"
+	.string "SUPER POKéMON.$"
 
 FuchsiaCity_House2_Text_OhThatsDisappointing::
-	.string "Oh…\n"
-	.string "That's so disappointing…$"
+	.string "Oh… Je suis très déçu…$"
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
-	.string "Hello there, {PLAYER}!\p"
-	.string "How are the fish biting?$"
+	.string "B'jour à toi, {PLAYER}!\p"
+	.string "Ça mord? Hein? Hein?$"
 
 FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
-	.string "Oh, no!\p"
-	.string "I had a gift for you, but you have\n"
-	.string "no room for it!$"
+	.string "Ha ben non!\p"
+	.string "J'avais un cadeau pour toi, mais\n"
+	.string "t'as plus de place!$"
 

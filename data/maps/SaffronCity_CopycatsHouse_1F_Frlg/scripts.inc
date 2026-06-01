@@ -20,15 +20,14 @@ SaffronCity_CopycatsHouse_1F_EventScript_Chansey::
 	end
 
 SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered::
-	.string "My daughter is so self-centered.\n"
-	.string "She has but a few friends.$"
+	.string "Ma fille est très égocentrique!\n"
+	.string "Elle n'a pas beaucoup d'amis.$"
 
 SaffronCity_CopycatsHouse_1F_Text_DaughterLikesToMimicPeople::
-	.string "My daughter likes to mimic people.\n"
-	.string "It's rather vexing.\p"
-	.string "Her mimicry has earned her the\n"
-	.string "nickname COPYCAT around here.$"
+	.string "Ma fille adore imiter les gens.\p"
+	.string "Elle imite si bien qu'on l'appelle\n"
+	.string "la COPIEUSE dans le coin!$"
 
 SaffronCity_CopycatsHouse_1F_Text_Chansey::
-	.string "CHANSEY: Chaan! Sii!$"
+	.string "LEVEINARD : Vénar! Vénar!$"
 

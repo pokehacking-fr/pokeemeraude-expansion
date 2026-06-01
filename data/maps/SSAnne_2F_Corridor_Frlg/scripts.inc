@@ -169,39 +169,38 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 	end
 
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
-	.string "This ship, she is a luxury liner for\n"
-	.string "TRAINERS of the world!\p"
-	.string "At every port, we hold parties with\n"
-	.string "invited TRAINERS.$"
+	.string "Ce luxueux bateau accueille tous\n"
+	.string "les DRESSEURS!\p"
+	.string "Dans chaque port, nous organisons\n"
+	.string "une fête pour les DRESSEURS!$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
-	.string "{RIVAL}: Bonjour!\n"
-	.string "{PLAYER}!\p"
-	.string "Imagine seeing you here!\n"
-	.string "{PLAYER}, were you really invited?\p"
-	.string "So how's your POKéDEX coming?\p"
-	.string "I already caught 40 kinds, pal.\n"
-	.string "Different kinds are everywhere.\p"
-	.string "Crawl around in grassy areas, and\n"
-	.string "look hard for them.$"
+	.string "{RIVAL}: Salut, {PLAYER}!\p"
+	.string "Toi! Ici! Sans blague!\n"
+	.string "{PLAYER}, tu as reçu une invitation?\p"
+	.string "Où en es-tu avec ton POKéDEX?\p"
+	.string "Moi, j'ai déjà attrapé 40 POKéMON!\n"
+	.string "Et ils sont de différents types.\p"
+	.string "Y'en a partout! Tu n'as qu'à ramper\n"
+	.string "dans les hautes herbes!$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-	.string "Humph!\p"
-	.string "At least you're raising your\n"
+	.string "Mouaff!\p"
+	.string "Au moins, tu t'occupes de tes\n"
 	.string "POKéMON!$"
 
 SSAnne_2F_Corridor_Text_RivalVictory::
-	.string "{PLAYER}..！\n"
 	.string "ふなよい　してるのか！\p"
 	.string "もっと　からだ\n"
 	.string "きたえた　ほうが　いいぜ！$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-	.string "{RIVAL}: I heard there was a CUT\n"
-	.string "master on board.\p"
-	.string "But he was just a seasick old man!\p"
-	.string "CUT itself is really useful.\n"
-	.string "Yup, it'll be handy.\p"
-	.string "You should go see him, too.\n"
-	.string "Smell ya!$"
+	.string "{RIVAL}: Il y a le maître de la\n"
+	.string "capacité COUPE à bord.\p"
+	.string "Mais ce n'est qu'un vieil homme\n"
+	.string "malade et sénile!\p"
+	.string "La capacité COUPE est très\n"
+	.string "utile!\p"
+	.string "Tu devrais le rencontrer!\n"
+	.string "Allez, salut!$"
 

@@ -44,37 +44,35 @@ Route12_NorthEntrance_2F_EventScript_ExplainTM27::
 
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
-	.string "My POKéMON's ashes are stored in\n"
-	.string "POKéMON TOWER.\p"
-	.string "You can have this TM.\n"
-	.string "I don't need it anymore…$"
+	.string "Les cendres de mes POKéMON sont\n"
+	.string "dans la TOUR POKéMON.\p"
+	.string "Tiens! Prends cette CT. Je n'en ai\n"
+	.string "plus besoin…$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
-	.string "My POKéMON's ashes are stored in\n"
-	.string "POKéMON TOWER.\p"
-	.string "You can have this TM.\n"
-	.string "I don't need it anymore…$"
+	.string "Les cendres de mes POKéMON sont\n"
+	.string "dans la TOUR POKéMON.\p"
+	.string "Tiens! Prends cette CT. Je n'en ai\n"
+	.string "plus besoin…$"
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
-	.string "{PLAYER} received TM27\n"
-	.string "from the little girl.$"
+	.string "{PLAYER} obtient\n"
+	.string "CT27!$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-	.string "TM27 is a move called RETURN…\p"
-	.string "If you treat your POKéMON good,\n"
-	.string "it will return your love by working\l"
-	.string "its hardest in battle.$"
+	.string "La CT27 s'appelle RETOUR.\p"
+	.string "Si tu traites bien tes POKéMON,\n"
+	.string "ils te le rendront en se donnant\p"
+	.string "plus de mal au combat.$"
 
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
-	.string "You don't have room for this.$"
+	.string "Ton inventaire est plein!$"
 
 Route12_NorthEntrance_2F_Text_TheresManFishing::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "There's a man fishing!$"
+	.string "Vous regardez dans les jumelles.\p"
+	.string "Vous voyez un pêcheur!$"
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
-	.string "Let's see what the binoculars have\n"
-	.string "to show…\p"
-	.string "It's POKéMON TOWER!$"
+	.string "Vous regardez dans les jumelles.\p"
+	.string "Vous voyez la TOUR POKéMON!$"
 

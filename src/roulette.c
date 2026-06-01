@@ -416,18 +416,18 @@ static void SetBallStuck(struct Sprite *);
 static void SpriteCB_Shroomish(struct Sprite *);
 static void SpriteCB_Taillow(struct Sprite *);
 
-static const u8 Roulette_Text_PlayMinimumWagerIsX[] = _("The minimum wager at this table\nis {STR_VAR_1}. Do you want to play?");
-static const u8 Roulette_Text_NotEnoughCoins[] = _("You don't have enough COINS.");
-static const u8 Roulette_Text_SpecialRateTable[] = _("Special rate table right now!");
-static const u8 Roulette_Text_ControlsInstruction[] = _("Place your wager with the + Control\nPad, then press the A Button.");
-static const u8 Roulette_Text_ItsAHit[] = _("It's a hit!");
+static const u8 Roulette_Text_PlayMinimumWagerIsX[] = _("A cette table, la mise minimum est\nde {STR_VAR_1}. Voulez-vous jouer?");
+static const u8 Roulette_Text_NotEnoughCoins[] = _("Vous n'avez pas assez de JETONS.");
+static const u8 Roulette_Text_SpecialRateTable[] = _("En ce moment, table à tarif spécial!");
+static const u8 Roulette_Text_ControlsInstruction[] = _("Placez votre mise avec la manette +\net appuyez sur le bouton A.");
+static const u8 Roulette_Text_ItsAHit[] = _("Vous avez gagné!");
 static const u8 Roulette_Text_Jackpot[] = _("Jackpot!");
-static const u8 Roulette_Text_NothingDoing[] = _("Nothing doing!");
-static const u8 Roulette_Text_YouveWonXCoins[] = _("You've won {STR_VAR_1} COINS!");
-static const u8 Roulette_Text_NoCoinsLeft[] = _("No COINS left…");
-static const u8 Roulette_Text_KeepPlaying[] = _("Keep playing?");
-static const u8 Roulette_Text_BoardWillBeCleared[] = _("The ROULETTE board will be cleared.");
-static const u8 Roulette_Text_CoinCaseIsFull[] = _("Your COIN CASE is full!\nCoins can be exchanged for prizes.");
+static const u8 Roulette_Text_NothingDoing[] = _("Vous avez perdu!");
+static const u8 Roulette_Text_YouveWonXCoins[] = _("Vous avez gagné {STR_VAR_1} JETONS!");
+static const u8 Roulette_Text_NoCoinsLeft[] = _("Plus assez de JETONS…");
+static const u8 Roulette_Text_KeepPlaying[] = _("Continuer à jouer?");
+static const u8 Roulette_Text_BoardWillBeCleared[] = _("La ROULETTE va être relancée.");
+static const u8 Roulette_Text_CoinCaseIsFull[] = _("Votre BOITE JETONS est pleine! On peut\néchanger vos JETONS contre des lots.");
 
 static const u16 sWheel_Pal[] = INCGFX_U16("graphics/roulette/wheel.png", ".gbapal"); // also palette for grid
 static const u32 sGrid_Tilemap[] = INCGFX_U32("graphics/roulette/grid.bin", ".smolTM");
@@ -469,12 +469,12 @@ static const struct WindowTemplate sWindowTemplates[] =
 {
     {
         .bg = 0,
-        .tilemapLeft = 3,
+        .tilemapLeft = 2, //!< French Difference
         .tilemapTop = 15,
-        .width = 24,
+        .width = 26, //!< French Difference
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0xC5
+        .baseBlock = 0xBD //!< French Difference
     },
     #ifdef UBFIX
     DUMMY_WIN_TEMPLATE,
@@ -2362,18 +2362,19 @@ static const u32 sCursor_Gfx[] = INCGFX_U32("graphics/roulette/cursor.png", ".4b
 
 static const struct SpritePalette sSpritePalettes[] =
 {
-    { .data = sShadow_Pal,      .tag = PALTAG_SHADOW },
-    { .data = sBall_Pal,        .tag = PALTAG_BALL },
-    { .data = sBallCounter_Pal, .tag = PALTAG_BALL_COUNTER },
-    { .data = sCursor_Pal,      .tag = PALTAG_CURSOR },
-    { .data = sCredit_Pal,      .tag = PALTAG_INTERFACE },
-    { .data = sShroomish_Pal,   .tag = PALTAG_SHROOMISH },
-    { .data = sTaillow_Pal,     .tag = PALTAG_TAILLOW },
-    { .data = sGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
-    { .data = sWynaut_Pal,      .tag = PALTAG_WYNAUT },
-    { .data = sAzurill_Pal,     .tag = PALTAG_AZURILL },
-    { .data = sSkitty_Pal,      .tag = PALTAG_SKITTY },
-    { .data = sMakuhita_Pal,    .tag = PALTAG_MAKUHITA },
+    //!< French Difference
+    { .data = gRouletteShadow_Pal,      .tag = PALTAG_SHADOW },
+    { .data = gRouletteBall_Pal,        .tag = PALTAG_BALL },
+    { .data = gRouletteBallCounter_Pal, .tag = PALTAG_BALL_COUNTER },
+    { .data = gRouletteCursor_Pal,      .tag = PALTAG_CURSOR },
+    { .data = gRouletteCredit_Pal,      .tag = PALTAG_INTERFACE },
+    { .data = gRouletteShroomish_Pal,   .tag = PALTAG_SHROOMISH },
+    { .data = gRouletteTaillow_Pal,     .tag = PALTAG_TAILLOW },
+    { .data = gRouletteGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
+    { .data = gRouletteWynaut_Pal,      .tag = PALTAG_WYNAUT },
+    { .data = gRouletteAzurill_Pal,     .tag = PALTAG_AZURILL },
+    { .data = gRouletteSkitty_Pal,      .tag = PALTAG_SKITTY },
+    { .data = gRouletteMakuhita_Pal,    .tag = PALTAG_MAKUHITA },
     {}
 };
 

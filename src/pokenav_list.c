@@ -96,9 +96,9 @@ static u32 LoopedTask_PrintCheckPageInfo(s32);
 static const u16 sListArrow_Pal[] = INCGFX_U16("graphics/pokenav/list_arrows.png", ".gbapal");
 static const u32 sListArrow_Gfx[] = INCGFX_U32("graphics/pokenav/list_arrows.png", ".4bpp.smol");
 
-static const u8 gText_PokenavMatchCall_Strategy[] = _("STRATEGY");
-static const u8 gText_PokenavMatchCall_TrainerPokemon[] = _("TRAINER'S POKéMON");
-static const u8 gText_PokenavMatchCall_SelfIntroduction[] = _("SELF-INTRODUCTION");
+static const u8 gText_PokenavMatchCall_Strategy[] = _("STRATEGIE");
+static const u8 gText_PokenavMatchCall_TrainerPokemon[] = _("POKéMON DU DRESSEUR");
+static const u8 gText_PokenavMatchCall_SelfIntroduction[] = _("PRESENTATION");
 
 bool32 CreatePokenavList(const struct BgTemplate *bgTemplate, struct PokenavListTemplate *listTemplate, s32 tileOffset)
 {
@@ -226,7 +226,8 @@ static u32 LoopedTask_PrintListItems(s32 state)
         if (listSub->iconDrawFunc != NULL)
             listSub->iconDrawFunc(listSub->listWindow.windowId, listSub->printIndex, row);
 
-        AddTextPrinterParameterized(listSub->listWindow.windowId, listSub->listWindow.fontId, listSub->itemTextBuffer, 8, (row << 4) + 1, TEXT_SKIP_DRAW, NULL);
+        //!< French Difference
+        AddTextPrinterParameterized(listSub->listWindow.windowId, listSub->listWindow.fontId, listSub->itemTextBuffer, 10, (row << 4) + 1, TEXT_SKIP_DRAW, NULL);
         if (++listSub->listWindow.numPrinted >= listSub->listWindow.numToPrint)
         {
             // Finished printing items. If icons were being drawn, draw the
@@ -716,7 +717,8 @@ static void PrintCheckPageTrainerName(struct PokenavListWindowState *state, stru
     list->bufferItemFunc(state->listPtr + state->listItemSize * state->windowTopIndex, list->itemTextBuffer);
     list->iconDrawFunc(list->listWindow.windowId, state->windowTopIndex, list->listWindow.unkA);
     FillWindowPixelRect(list->listWindow.windowId, PIXEL_FILL(4), 0, list->listWindow.unkA * 16, list->listWindow.width * 8, 16);
-    AddTextPrinterParameterized3(list->listWindow.windowId, list->listWindow.fontId, 8, (list->listWindow.unkA * 16) + 1, colors, TEXT_SKIP_DRAW, list->itemTextBuffer);
+    //!< French Difference
+    AddTextPrinterParameterized3(list->listWindow.windowId, list->listWindow.fontId, 10, (list->listWindow.unkA * 16) + 1, colors, TEXT_SKIP_DRAW, list->itemTextBuffer);
     SetListMarginTile(&list->listWindow, TRUE);
     CopyWindowRectToVram(list->listWindow.windowId, COPYWIN_FULL, 0, list->listWindow.unkA * 2, list->listWindow.width, 2);
 }
@@ -726,7 +728,8 @@ static void PrintMatchCallListTrainerName(struct PokenavListWindowState *state, 
 {
     list->bufferItemFunc(state->listPtr + state->listItemSize * state->windowTopIndex, list->itemTextBuffer);
     FillWindowPixelRect(list->listWindow.windowId, PIXEL_FILL(1), 0, list->listWindow.unkA * 16, list->listWindow.width * 8, 16);
-    AddTextPrinterParameterized(list->listWindow.windowId, list->listWindow.fontId, list->itemTextBuffer, 8, list->listWindow.unkA * 16 + 1, TEXT_SKIP_DRAW, NULL);
+    //!< French Difference
+    AddTextPrinterParameterized(list->listWindow.windowId, list->listWindow.fontId, list->itemTextBuffer, 10, list->listWindow.unkA * 16 + 1, TEXT_SKIP_DRAW, NULL);
     SetListMarginTile(&list->listWindow, FALSE);
     CopyWindowToVram(list->listWindow.windowId, COPYWIN_FULL);
 }
@@ -742,7 +745,8 @@ static void PrintMatchCallFieldNames(struct PokenavListSub *list, u32 fieldId)
     u32 top = (list->listWindow.unkA + 1 + (fieldId * 2)) & 0xF;
 
     FillWindowPixelRect(list->listWindow.windowId, PIXEL_FILL(1), 0, top << 4, list->listWindow.width, 16);
-    AddTextPrinterParameterized3(list->listWindow.windowId, FONT_NARROW, 2, (top << 4) + 1, colors, TEXT_SKIP_DRAW, fieldNames[fieldId]);
+    //!< French Difference
+    AddTextPrinterParameterized3(list->listWindow.windowId, FONT_NARROW, 4, (top << 4) + 1, colors, TEXT_SKIP_DRAW, fieldNames[fieldId]);
     CopyWindowRectToVram(list->listWindow.windowId, COPYWIN_GFX, 0, top << 1, list->listWindow.width, 2);
 }
 
@@ -762,7 +766,8 @@ static void PrintMatchCallFlavorText(struct PokenavListWindowState *windowState,
     if (str != NULL)
     {
         FillWindowTilesByRow(list->listWindow.windowId, 1, r6 * 2, list->listWindow.width - 1, 2);
-        AddTextPrinterParameterized(list->listWindow.windowId, FONT_NARROW, str, 2, (r6 << 4) + 1, TEXT_SKIP_DRAW, NULL);
+        //!< French Difference
+        AddTextPrinterParameterized(list->listWindow.windowId, FONT_NARROW, str, 4, (r6 << 4) + 1, TEXT_SKIP_DRAW, NULL);
         CopyWindowRectToVram(list->listWindow.windowId, COPYWIN_GFX, 0, r6 * 2, list->listWindow.width, 2);
     }
 }
@@ -844,7 +849,8 @@ static void CreateListArrowSprites(struct PokenavListWindowState *windowState, s
     u32 spriteId;
     s16 x;
 
-    spriteId = CreateSprite(&sSpriteTemplate_RightArrow, list->listWindow.x * 8 + 3, (list->listWindow.y + 1) * 8, 7);
+    //!< French Difference
+    spriteId = CreateSprite(&sSpriteTemplate_RightArrow, list->listWindow.x * 8 + 5, (list->listWindow.y + 1) * 8, 7);
     list->rightArrow = &gSprites[spriteId];
 
     x = list->listWindow.x * 8 + (list->listWindow.width - 1) * 4;

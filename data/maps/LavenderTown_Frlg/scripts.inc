@@ -47,42 +47,43 @@ LavenderTown_EventScript_PokemonTowerSign::
 	end
 
 LavenderTown_Text_DoYouBelieveInGhosts::
-	.string "Do you believe in ghosts?$"
+	.string "Crois-tu aux SPECTRES?$"
 
 LavenderTown_Text_SoThereAreBelievers::
-	.string "Really?\n"
-	.string "So there are believers…$"
+	.string "Vraiment?\n"
+	.string "Il en faut…$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-	.string "Hahaha, I guess not.\p"
-	.string "That white hand on your shoulder…\n"
-	.string "I'm just imagining it.$"
+	.string "T'as raison.\p"
+	.string "La main toute blanche sur ton\n"
+	.string "épaule est fausse alors…$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-	.string "This town is known as the grave\n"
-	.string "site of POKéMON.\p"
-	.string "Memorial services are held in\n"
-	.string "POKéMON TOWER.$"
+	.string "Cette ville est le cimetière des\n"
+	.string "POKéMON.\p"
+	.string "La TOUR POKéMON est le lieu de\n"
+	.string "recueillement.$"
 
 LavenderTown_Text_GhostsAppearedInTower::
-	.string "Ghosts appeared in POKéMON TOWER.\p"
-	.string "I think they're the spirits of\n"
-	.string "POKéMON that the ROCKETS killed.$"
+	.string "Des SPECTRES sont apparus dans la\n"
+	.string "TOUR POKéMON.\p"
+	.string "Ils doivent être les esprits des\n"
+	.string "POKéMON tués par la ROCKET.$"
 
 LavenderTown_Text_TownSign::
-	.string "LAVENDER TOWN\n"
-	.string "The Noble Purple Town$"
+	.string "LAVANVILLE\n"
+	.string "Le pourpre de la noblesse$"
 
 LavenderTown_Text_SilphScopeNotice::
-	.string "New SILPH SCOPE!\n"
-	.string "Make the Invisible Plain to See!\p"
-	.string "SILPH CO.$"
+	.string "Tout nouveau SCOPE SYLPHE!\n"
+	.string "Voir l'invisible!\p"
+	.string "SYLPHE SARL$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-	.string "LAVENDER VOLUNTEER\n"
-	.string "POKéMON HOUSE$"
+	.string "BENEVOLAT DE LAVANVILLE\n"
+	.string "MAISON POKéMON$"
 
 LavenderTown_Text_PokemonTowerSign::
-	.string "POKéMON TOWER\n"
-	.string "Becalm the Spirits of POKéMON$"
+	.string "Paix à l'âme des POKéMON\n"
+	.string "TOUR POKéMON$"
 

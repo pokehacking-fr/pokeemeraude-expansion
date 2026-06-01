@@ -7,17 +7,18 @@ FiveIsland_LostCave_Room1_EventScript_Lawson::
 	end
 
 FiveIsland_LostCave_Room1_Text_LawsonIntro::
-	.string "Aiyeeeeeh!\p"
-	.string "I thought this was an ancient ruin.\n"
-	.string "But it's teeming with ghosts!$"
+	.string "Aaaaah!\p"
+	.string "Je croyais que c'étaient des ruines\n"
+	.string "anciennes sans danger.\p"
+	.string "Mais ça grouille de fantômes!$"
 
 FiveIsland_LostCave_Room1_Text_LawsonDefeat::
-	.string "Aiyeeeeeh!\n"
-	.string "Mercy!$"
+	.string "Aaaaïlle!\n"
+	.string "Pitiéééé!!$"
 
 FiveIsland_LostCave_Room1_Text_LawsonPostBattle::
-	.string "I'm trying to get out of here, but\n"
-	.string "I always end up at the same spot.\p"
-	.string "Maybe the number of boulders is\n"
-	.string "a hint…$"
+	.string "J'essaie de sortir d'ici, mais je me\n"
+	.string "retrouve toujours au même endroit.\p"
+	.string "Peut-être que le nombre de rochers\n"
+	.string "est un indice…$"
 

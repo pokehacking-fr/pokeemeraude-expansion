@@ -36,7 +36,7 @@ static u32 CB2_HandleCallExitInput(struct Pokenav_MatchCallMenu *);
 static u32 LoopedTask_BuildMatchCallList(s32);
 static bool32 ShouldDoNearbyMessage(void);
 
-static const u8 gText_CallCantBeMadeHere[] = _("A call can't be made from here.");
+static const u8 gText_CallCantBeMadeHere[] = _("Impossible d'appeler d'ici.");
 
 #include "data/text/match_call_messages.h"
 
@@ -402,6 +402,9 @@ u16 GetMatchCallOptionId(int optionId)
     return state->matchCallOptions[optionId];
 }
 
+/**
+ * French Difference
+*/
 void BufferMatchCallNameAndDesc(struct PokenavMatchCallEntry *matchCallEntry, u8 *str)
 {
     const u8 *trainerName;
@@ -410,8 +413,7 @@ void BufferMatchCallNameAndDesc(struct PokenavMatchCallEntry *matchCallEntry, u8
     {
         int index = GetTrainerIdxByRematchIdx(matchCallEntry->headerId);
         const struct Trainer *trainer = GetTrainerStructFromId(index);
-        enum TrainerClassID class = trainer->trainerClass;
-        className = gTrainerClasses[class].name;
+        className = GetTrainerClassNameGenderSpecific(trainer->trainerClass, trainer->gender, trainer->trainerName);
         trainerName = trainer->trainerName;
     }
     else
@@ -422,11 +424,11 @@ void BufferMatchCallNameAndDesc(struct PokenavMatchCallEntry *matchCallEntry, u8
     if (className && trainerName)
     {
         u8 *str2 = GetStringClearToWidth(str, FONT_NARROW, className, 69);
-        GetStringClearToWidth(str2, FONT_NARROW, trainerName, 51);
+        GetStringClearToWidth(str2, FONT_NARROW, trainerName, 57);
     }
     else
     {
-        GetStringClearToWidth(str, FONT_NARROW, NULL, 120);
+        GetStringClearToWidth(str, FONT_NARROW, NULL, 126);
     }
 }
 

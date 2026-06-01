@@ -60,45 +60,43 @@ ThreeIsland_BerryForest_EventScript_BewareSign::
 	end
 
 ThreeIsland_BerryForest_Text_HelpScaryPokemon::
-	.string "LOSTELLE: Whimper… Sniff…\n"
-	.string "Oh! Please, help!\p"
-	.string "A scary POKéMON appeared there\n"
-	.string "a little while ago.\p"
-	.string "It kept scaring.\n"
-	.string "It made LOSTELLE scared.\p"
-	.string "I'm too scared to move!\n"
-	.string "But I want to go home…$"
+	.string "LOSTELLE: Sniff…\n"
+	.string "Aidez-moiiii…\p"
+	.string "Un méchant POKéMON arrête pas\n"
+	.string "de m'embêteeer.\p"
+	.string "Il me fait peur.\n"
+	.string "Sniff… Je peux plus partir.\p"
+	.string "Je veux rentrer chez moiiii… $"
 
 ThreeIsland_BerryForest_Text_HereItComesAgain::
-	.string "Oh! Here it comes again!\n"
-	.string "No! Go away! It's scaring me!\p"
-	.string "Waaaaaaah!\n"
-	.string "I want my daddy!$"
+	.string "Ohh! Il revient encore!\n"
+	.string "Non, va-t-en! J'ai peuuur!\p"
+	.string "Aaaaah!!\n"
+	.string "Je veux mon papa!$"
 
 ThreeIsland_BerryForest_Text_ThankYouHaveThis::
-	.string "Ohh! That was so scary!\n"
-	.string "Thank you!\p"
-	.string "LOSTELLE came to pick some\n"
-	.string "BERRIES.\p"
-	.string "You can have this!$"
+	.string "Oh! J'ai eu trop peur!\n"
+	.string "Merci beaucoup!\p"
+	.string "Je voulais ramasser des BAIES.\n"
+	.string "Tiens, c'est pour toi!$"
 
 ThreeIsland_BerryForest_Text_LetsGoHome::
-	.string "What's your name?\p"
-	.string "LOSTELLE's scared, so can I go\n"
-	.string "with you to my daddy's house?\p"
-	.string "Okay!\n"
-	.string "Let's go home!$"
+	.string "Tu t'appelles comment?\p"
+	.string "J'ai peur, tu veux bien venir avec\n"
+	.string "moi jusque chez mon papa?\p"
+	.string "Ouiii!\n"
+	.string "On y va! Je rentre à ma maison.$"
 
 ThreeIsland_BerryForest_Text_BerryPouchIsFull::
-	.string "Your BERRY POUCH is full.\n"
-	.string "I guess you don't want this.$"
+	.string "Ta POCHE A BAIES est pleine.\n"
+	.string "Tu ne peux pas prendre ça.$"
 
 ThreeIsland_BerryForest_Text_WelcomeToBerryForest::
-	.string "Welcome to the BERRY FOREST\p"
-	.string "Be friendly and share BERRIES with\n"
-	.string "others and POKéMON.$"
+	.string "Bienvenue aux BOIS BAIES\p"
+	.string "Echangez vos BAIES pour régaler\n"
+	.string "vos amis et vos POKéMON.$"
 
 ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons::
-	.string "Beware of wild, BERRY-loving\n"
-	.string "POKéMON!$"
+	.string "Attention aux POKéMON sauvages\n"
+	.string "attirés par les BAIES.$"
 

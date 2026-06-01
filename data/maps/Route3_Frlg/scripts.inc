@@ -10,106 +10,103 @@ Route3_EventScript_RouteSign::
 	end
 
 Route3_Text_TunnelFromCeruleanTiring::
-	.string "Whew… I better take a rest…\n"
-	.string "Groan…\p"
-	.string "That tunnel from CERULEAN takes a\n"
-	.string "lot out of you!$"
+	.string "Pfou… Je vais faire une halte.\n"
+	.string "Moouarf…\p"
+	.string "Ce tunnel venant d'AZURIA\n"
+	.string "est épuisant!$"
 
 Route3_Text_ColtonIntro::
-	.string "Hey!\n"
-	.string "I saw you in VIRIDIAN FOREST!$"
+	.string "Hé! On s'est déjà vus dans la\n"
+	.string "FORET DE JADE!$"
 
 Route3_Text_ColtonDefeat::
-	.string "You beat me again!$"
+	.string "Ben, tu m'as encore battu!$"
 
 Route3_Text_ColtonPostBattle::
-	.string "There are other kinds of POKéMON\n"
-	.string "than the ones you find in forests.$"
+	.string "Il y a beaucoup de POKéMON\n"
+	.string "différents dans la forêt!$"
 
 Route3_Text_BenIntro::
-	.string "Hi!\n"
-	.string "I like shorts!\p"
-	.string "They're delightfully comfy and\n"
-	.string "easy to wear!$"
+	.string "Yahaa!\n"
+	.string "J'adore les shorts! Viens t'battre!$"
 
 Route3_Text_BenDefeat::
-	.string "I don't believe it!$"
+	.string "Nyahaa, tu m'as taillé un short!$"
 
 Route3_Text_BenPostBattle::
-	.string "Are you using a POKéMON CENTER's\n"
-	.string "PC for storing your POKéMON?\p"
-	.string "Each BOX can hold up to\n"
-	.string "30 POKéMON.$"
+	.string "Pour ranger tes POKéMON,\n"
+	.string "utilise un PC.\p"
+	.string "Chaque boîte contient 30 POKéMON!$"
 
 Route3_Text_JaniceIntro::
-	.string "Excuse me!\n"
-	.string "You looked at me, didn't you?$"
+	.string "Tu veux ma photo?$"
 
 Route3_Text_JaniceDefeat::
-	.string "You're mean!$"
+	.string "Tiens, c'est ma photo!$"
 
 Route3_Text_JanicePostBattle::
-	.string "You shouldn't be staring if you\n"
-	.string "don't want to battle!$"
+	.string "Baisse les yeux si tu veux éviter\n"
+	.string "la baston!$"
 
 Route3_Text_GregIntro::
-	.string "Are you a TRAINER?\n"
-	.string "Let's get with it right away!$"
+	.string "T'es un DRESSEUR?\n"
+	.string "A l'attaque!$"
 
 Route3_Text_GregDefeat::
-	.string "If I had new POKéMON, I would've\n"
-	.string "won!$"
+	.string "Avec d'autres POKéMON,\n"
+	.string "j'aurais gagné!$"
 
 Route3_Text_GregPostBattle::
-	.string "If a POKéMON BOX on the PC gets\n"
-	.string "full, just switch to another BOX.$"
+	.string "Quand l'une des boîtes de ton PC\n"
+	.string "est pleine, active une autre boîte!$"
 
 Route3_Text_SallyIntro::
-	.string "That look you gave me…\n"
-	.string "It's so intriguing!$"
+	.string "Ce regard que tu m'as lancé…\n"
+	.string "C'est plutôt intrigant.$"
 
 Route3_Text_SallyDefeat::
-	.string "Be nice!$"
+	.string "Hmmm…\n"
+	.string "Sois plus sympa!$"
 
 Route3_Text_SallyPostBattle::
-	.string "You can avoid battles by not\n"
-	.string "letting TRAINERS see you.$"
+	.string "Evite les regards si tu ne veux\n"
+	.string "pas combattre!$"
 
 Route3_Text_CalvinIntro::
-	.string "Hey! You're not wearing shorts!\n"
-	.string "What's wrong with you?$"
+	.string "Hé! T'as pas de short!\n"
+	.string "Tu crains!$"
 
 Route3_Text_CalvinDefeat::
-	.string "Lost!\n"
-	.string "Lost! Lost!$"
+	.string "Perdu!\n"
+	.string "Perdu, et perdu!$"
 
 Route3_Text_CalvinPostBattle::
-	.string "I always wear shorts, even in\n"
-	.string "winter. That's my policy.$"
+	.string "Je porte toujours des shorts, même\n"
+	.string "en hiver!$"
 
 Route3_Text_JamesIntro::
-	.string "I'll battle you with the POKéMON\n"
-	.string "I just caught.$"
+	.string "Fais gaffe à mes nouveaux\n"
+	.string "POKéMON!$"
 
 Route3_Text_JamesDefeat::
-	.string "Done like dinner!$"
+	.string "Ben, y m'en faut des nouveaux!$"
 
 Route3_Text_JamesPostBattle::
-	.string "Trained POKéMON are stronger than\n"
-	.string "the wild ones.$"
+	.string "Les POKéMON dressés sont plus\n"
+	.string "forts que les POKéMON sauvages!$"
 
 Route3_Text_RobinIntro::
-	.string "Eek!\n"
-	.string "Did you touch me?$"
+	.string "Hé!\n"
+	.string "Tu m'as poussée là?$"
 
 Route3_Text_RobinDefeat::
-	.string "That's it?$"
+	.string "OK!$"
 
 Route3_Text_RobinPostBattle::
-	.string "ROUTE 4 is at the foot of\n"
-	.string "MT. MOON.$"
+	.string "La ROUTE 4 est au pied du MONT\n"
+	.string "SELENITE.$"
 
 Route3_Text_RouteSign::
 	.string "ROUTE 3\n"
-	.string "MT. MOON AHEAD$"
+	.string "MONT SELENITE DROIT DEVANT$"
 

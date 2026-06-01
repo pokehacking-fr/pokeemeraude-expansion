@@ -39,51 +39,51 @@ SilphCo_8F_EventScript_Grunt2::
 	end
 
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-	.string "I wonder if SILPH is finished…$"
+	.string "Mmm… La SYLPHE va-t-elle faire\n"
+	.string "faillite?$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-	.string "Thanks for saving us!$"
+	.string "Merci de nous avoir sauvés!$"
 
 SilphCo_8F_Text_Grunt1Intro::
-	.string "That's as far as you'll go!$"
+	.string "Hop hop hop!\n"
+	.string "On ne bouge plus!$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-	.string "Not enough grit!$"
+	.string "Je suis faible!$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-	.string "If you don't turn back…\n"
-	.string "I'll call for backup!$"
+	.string "Va-t-en ou j'appelle du renfort!$"
 
 SilphCo_8F_Text_ParkerIntro::
-	.string "You're causing us problems!$"
+	.string "Tu nous casses les pieds!$"
 
 SilphCo_8F_Text_ParkerDefeat::
-	.string "Huh?\n"
-	.string "I lost?$"
+	.string "Heu?\n"
+	.string "J'ai perdu?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-	.string "So, what do you think of SILPH\n"
-	.string "BUILDING's maze?$"
+	.string "La SYLPHE est un vrai labyrinthe,\n"
+	.string "hein?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-	.string "I am one of the four ROCKET\n"
-	.string "BROTHERS!$"
+	.string "Je suis l'un des 4 FRERES ROCKET!$"
 
 SilphCo_8F_Text_Grunt2Defeat::
 	.string "Whoo!\n"
-	.string "Oh, Brothers!$"
+	.string "Frèèèères!$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-	.string "I'll leave you up to my brothers.$"
+	.string "Mes frères te dégommeront!$"
 
 SilphCo_8F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "8F$"
+	.string "SYLPHE SARL.\n"
+	.string "7ème étage.$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-	.string "TEAM ROCKET's BOSS is terribly\n"
-	.string "cruel!\p"
-	.string "To him, POKéMON are just tools to\n"
-	.string "be used.\p"
-	.string "What will happen if that tyrant\n"
-	.string "takes over our company…$"
+	.string "Le chef de la TEAM ROCKET est\n"
+	.string "incroyablement cruel.\p"
+	.string "Pour lui, les POKéMON ne sont que\n"
+	.string "des outils.\p"
+	.string "Qu'arrivera-t-il s'il arrive à\n"
+	.string "s'emparer de notre compagnie?$"

@@ -37,28 +37,28 @@ ThreeIsland_Port_EventScript_Biker2::
 	end
 
 ThreeIsland_Port_Text_WereKantoRiderFederation::
-	.string "We're the KANTO RIDER FEDERATION!\n"
+	.string "On est les KANTO ANGELS!\n"
 	.string "Vroom! Vavavavooom! Vroom!\p"
-	.string "My bike's wimpy, so I have to\n"
-	.string "make exhaust noises myself!$"
+	.string "La honte, je dois faire le bruit de\n"
+	.string "ma bécane tout seul.$"
 
 ThreeIsland_Port_Text_ForkOverMoney::
-	.string "Hey, hey, lady!\n"
-	.string "Fork over some spending money!$"
+	.string "Hey! Madame,\n"
+	.string "t'aurais pas du liquide sur toi?$"
 
 ThreeIsland_Port_Text_IllCallThePolice::
-	.string "Aiyeeh!\p"
-	.string "Wh-who are you?!\n"
-	.string "I… I'll call the police!$"
+	.string "Aaaah.\p"
+	.string "Qu-qui êtes-vous? Je vais appeler\n"
+	.string "la police moi, voyous!$"
 
 ThreeIsland_Port_Text_ThankGoodnessBikersGone::
-	.string "Those BIKERS…\n"
-	.string "Are they gone?\p"
-	.string "Oh, thank goodness!\n"
-	.string "They certainly had me terrified!$"
+	.string "Ces MOTARDS…\n"
+	.string "Ils sont vraiment partis?\p"
+	.string "Oh, merci mon dieu!\n"
+	.string "Ils m'ont fait une peur bleue.$"
 
 ThreeIsland_Port_Text_EverythingTurnedOutForBest::
-	.string "Those BIKERS ran off, and\n"
-	.string "LOSTELLE was found safe.\p"
-	.string "Everything turned out for the best!$"
+	.string "Ces MOTARDS sont partis et\n"
+	.string "LOSTELLE est saine et sauve.\p"
+	.string "Tout est bien qui finit bien.$"
 

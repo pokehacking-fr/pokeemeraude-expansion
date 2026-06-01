@@ -856,3 +856,28 @@ bool32 DoesStringProperlyTerminate(const u8 *str, u32 last)
 
     return FALSE;
 }
+
+bool32 IsCharVowel(const u32 c)
+{
+    return (c >= CHAR_A_GRAVE && c <= CHAR_U_CIRCUMFLEX)
+        || (c >= CHAR_a_GRAVE && c <= CHAR_U_CIRCUMFLEX)
+        || (c == CHAR_SUPER_E)
+        || (c == CHAR_SUPER_ER)
+        || (c == CHAR_I_ACUTE)
+        || (c == CHAR_a_CIRCUMFLEX)
+        || (c == CHAR_i_ACUTE)
+        || (c == CHAR_SUPER_RE)
+        || (c == CHAR_A)
+        || (c == CHAR_E)
+        || (c == CHAR_I)
+        || (c == CHAR_O)
+        || (c == CHAR_U)
+        || (c == CHAR_Y)
+        || (c == CHAR_a)
+        || (c == CHAR_e)
+        || (c == CHAR_i)
+        || (c == CHAR_o)
+        || (c == CHAR_u)
+        || (c == CHAR_y)
+        || (c >= CHAR_A_DIAERESIS && c <= CHAR_u_DIAERESIS);
+}

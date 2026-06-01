@@ -178,7 +178,6 @@ static void SpriteCB_PlayerHead(struct Sprite *);
 
 static const u16 sMaleHead_Pal[]                 = INCGFX_U16("graphics/frontier_pass/map_heads.png", ".gbapal");
 static const u16 sFemaleHead_Pal[]               = INCGFX_U16("graphics/frontier_pass/map_heads_female.pal", ".gbapal");
-static const u32 sMapScreen_Gfx[]                = INCGFX_U32("graphics/frontier_pass/map_screen.png", ".4bpp.smol");
 static const u32 sCursor_Gfx[]                   = INCGFX_U32("graphics/frontier_pass/cursor.png", ".4bpp.smol");
 static const u32 sHeads_Gfx[]                    = INCGFX_U32("graphics/frontier_pass/map_heads.png", ".4bpp.smol");
 static const u32 sMapCursor_Gfx[]                = INCGFX_U32("graphics/frontier_pass/map_cursor.png", ".4bpp.smol");
@@ -1409,7 +1408,9 @@ static bool32 InitFrontierMap(void)
         InitWindows(sMapWindowTemplates);
         DeactivateAllTextPrinters();
         PrintOnFrontierMap();
-        DecompressAndCopyTileDataToVram(1, sMapScreen_Gfx, 0, 0, 0);
+
+        //!< French Difference
+        DecompressAndCopyTileDataToVram(1, gFrontierPassMapScreen_Gfx, 0, 0, 0);
         break;
     case 5:
         if (FreeTempTileDataBuffersIfPossible())

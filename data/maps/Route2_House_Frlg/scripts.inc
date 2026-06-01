@@ -40,8 +40,7 @@ Route2_House_EventScript_AlreadyTraded::
 	end
 
 Route2_House_Text_FaintedMonsCanUseFieldMoves::
-	.string "A fainted POKéMON just has no\n"
-	.string "energy left to battle.\p"
-	.string "It can still use moves like CUT\n"
-	.string "outside of battle.$"
+	.string "Un POKéMON KO ne peut se battre\n"
+	.string "mais il peut encore utiliser des\l"
+	.string "techniques comme COUPE!$"
 

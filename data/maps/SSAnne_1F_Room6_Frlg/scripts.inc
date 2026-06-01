@@ -25,18 +25,18 @@ SSAnne_1F_Room6_EventScript_DeclineHealMale::
 	end
 
 SSAnne_1F_Room6_Text_TakeAShortRest::
-	.string "You look tired. Would you like to\n"
-	.string "take a short rest?$"
+	.string "Tu as fait un long voyage, non?\n"
+	.string "Tu veux te reposer un moment?$"
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
-	.string "I'm glad to see that everyone is\n"
-	.string "looking refreshed and chipper.$"
+	.string "Contente de voir que tout le\n"
+	.string "monde va bien.$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
-	.string "Oh, I'm sorry for fussing over you.\n"
-	.string "You look like my little brother…$"
+	.string "Oh, désolée de t'embêter. Mais tu\n"
+	.string "ressembles à mon petit frère.$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMySister::
-	.string "Oh, I'm sorry for fussing over you.\n"
-	.string "You look like my little sister…$"
+	.string "Oh, désolée de t'embêter. Mais tu\n"
+	.string "ressembles à ma petite sœur.$"
 

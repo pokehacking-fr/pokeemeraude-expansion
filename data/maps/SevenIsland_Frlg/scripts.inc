@@ -19,40 +19,40 @@ SevenIsland_EventScript_Scientist::
 	end
 
 Text_SwordsDanceTeach::
-	.string "Not many people come out here.\p"
-	.string "If I train here, I'm convinced that\n"
-	.string "I'll get stronger and stronger.\p"
-	.string "Yep, stronger and stronger…\p"
-	.string "How would you like to learn a move\n"
-	.string "like that? It's SWORDS DANCE.$"
+	.string "Y'a pas beaucoup de monde qui\n"
+	.string "passe dans le coin.\p"
+	.string "Si je m'entraîne là, je deviendrai\n"
+	.string "de plus en plus fort, c'est sûr!\p"
+	.string "Ouais, de plus en plus fort…\p"
+	.string "Ça te dirait d'apprendre cette\n"
+	.string "capacité? C'est DANSE-LAMES.$"
 
 Text_SwordsDanceDeclined::
-	.string "Well, that's fine, too.$"
+	.string "Ben, tant pis.$"
 
 Text_SwordsDanceWhichMon::
-	.string "All right, pick which POKéMON\n"
-	.string "I should teach it to.$"
+	.string "Cool, choisis le POKéMON qui\n"
+	.string "doit l'apprendre.$"
 
 Text_SwordsDanceTaught::
-	.string "If only we could keep getting\n"
-	.string "stronger and stronger, eh?$"
+	.string "Si seulement on pouvait toujours\n"
+	.string "progresser, ça serait mortel!$"
 
 SevenIsland_Text_IslandSign::
-	.string "SEVEN ISLAND\n"
-	.string "Quest Island of Infinity$"
+	.string "ILE 7\n"
+	.string "L'île de l'infinité$"
 
 SevenIsland_Text_IslandsMadeInSevenDays::
-	.string "These islands are called the SEVII\n"
-	.string "ISLANDS because there are seven.\p"
-	.string "…Or at least that's what the young\n"
-	.string "people believe.\p"
-	.string "The truth is, these islands are so\n"
-	.string "named because they are said to\l"
-	.string "have been made in seven days.$"
+	.string "On appelle ces 7 îles les ILES\n"
+	.string "SEVII, mais je sais pas pourquoi.\p"
+	.string "… En tout cas c'est plein\n"
+	.string "de jeunes ici.\p"
+	.string "A ce qu'on raconte, elles auraient\n"
+	.string "été créées en 7 jours.$"
 
 SevenIsland_Text_IslandVirtuallyUntouched::
-	.string "This island has been left virtually\n"
-	.string "untouched in its natural state.\p"
-	.string "It could be a little difficult to\n"
-	.string "hike around because of that.$"
+	.string "Ces îles ont été conservées dans\n"
+	.string "leur état naturel.\p"
+	.string "Ça rend les excursions un peu\n"
+	.string "plus difficiles que la normale.$"
 

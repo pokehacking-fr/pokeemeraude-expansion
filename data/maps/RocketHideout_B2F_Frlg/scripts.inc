@@ -7,14 +7,15 @@ RocketHideout_B2F_EventScript_Grunt::
 	end
 
 RocketHideout_B2F_Text_GruntIntro::
-	.string "BOSS said you can see ghosts with\n"
-	.string "the SILPH SCOPE.$"
+	.string "Le chef dit qu'on peut voir les\n"
+	.string "fantômes avec un SCOPE SYLPHE!$"
 
 RocketHideout_B2F_Text_GruntDefeat::
-	.string "I surrender!$"
+	.string "STOP!\n"
+	.string "J'me rends!$"
 
 RocketHideout_B2F_Text_GruntPostBattle::
-	.string "The TEAM ROCKET HQ has four\n"
-	.string "underground floors.\p"
-	.string "Think you can reach the BOSS?$"
+	.string "Le repaire de la TEAM ROCKET a\n"
+	.string "4 niveaux souterrains.\p"
+	.string "Pourras-tu arriver jusqu'au chef?$"
 

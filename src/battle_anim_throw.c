@@ -1899,7 +1899,8 @@ static void RepeatBallOpenParticleAnimation(u8 taskId)
     priority = gTasks[taskId].data[3];
     subpriority = gTasks[taskId].data[4];
 
-    for (i = 0; i < 12; i++)
+    // TODO(french): Check this animation
+    for (i = 0; i < POKEBALL_COUNT; i++)
     {
         spriteId = CreateSpriteUnchecked(&sBallParticles[ballId].spriteTemplate, x, y, subpriority);
         if (spriteId != MAX_SPRITES)

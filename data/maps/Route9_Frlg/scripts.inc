@@ -6,108 +6,108 @@ Route9_EventScript_RouteSign::
 	end
 
 Route9_Text_AliciaIntro::
-	.string "You have POKéMON with you!\n"
-	.string "You're mine!$"
+	.string "T'as des POKéMON avec toi!\n"
+	.string "En garde!$"
 
 Route9_Text_AliciaDefeat::
-	.string "You deceived me…$"
+	.string "Ah!\n"
+	.string "Bien défendu!$"
 
 Route9_Text_AliciaPostBattle::
-	.string "The tunnel coming up is pitch-black\n"
-	.string "inside.\p"
-	.string "You'll need FLASH to get through\n"
-	.string "there.$"
+	.string "On n'y voit rien du tout dans ce\n"
+	.string "tunnel.\p"
+	.string "Il te faudrait FLASH pour le\n"
+	.string "traverser.$"
 
 Route9_Text_ChrisIntro::
-	.string "Who's that walking there with those\n"
-	.string "good-looking POKéMON?$"
+	.string "Mais qui voilà, les bras chargés de\n"
+	.string "POKéMON?$"
 
 Route9_Text_ChrisDefeat::
-	.string "Out like a light!$"
+	.string "Paf!\n"
+	.string "J'suis fini!$"
 
 Route9_Text_ChrisPostBattle::
-	.string "Keep walking!$"
+	.string "Passe ton chemin!$"
 
 Route9_Text_DrewIntro::
-	.string "I'm taking the ROCK TUNNEL to\n"
-	.string "go to LAVENDER…$"
+	.string "Je passe par la GROTTE pour\n"
+	.string "aller à LAVANVILLE!$"
 
 Route9_Text_DrewDefeat::
-	.string "Can't measure up…$"
+	.string "…\n"
+	.string "J'suis pas bon!$"
 
 Route9_Text_DrewPostBattle::
-	.string "Are you off to ROCK TUNNEL, too?$"
+	.string "Tu vas dans la GROTTE, toi aussi?$"
 
 Route9_Text_CaitlinIntro::
-	.string "Don't you dare patronize me!$"
+	.string "Traite-moi avec respect!$"
 
 Route9_Text_CaitlinDefeat::
-	.string "No!\n"
-	.string "You're too much.$"
+	.string "…\n"
+	.string "Je ne mérite que ton dédain!$"
 
 Route9_Text_CaitlinPostBattle::
-	.string "You're obviously talented.\n"
-	.string "Good luck to you!$"
+	.string "Tu iras loin!\n"
+	.string "Bonne chance à toi!$"
 
 Route9_Text_JeremyIntro::
-	.string "Bwahaha!\n"
-	.string "Great! I was bored, eh!$"
+	.string "Bwahaha! Allez…\n"
+	.string "Viens prendre ta pâtée…$"
 
 Route9_Text_JeremyDefeat::
-	.string "Keep it coming, eh!\p"
-	.string "Oh wait.\n"
-	.string "I'm out of POKéMON!$"
+	.string "Ha!\n"
+	.string "Viens, viens!\p"
+	.string "Heu, j'ai plus de POKéMON!$"
 
 Route9_Text_JeremyPostBattle::
-	.string "You sure had guts standing up to\n"
-	.string "me there, eh?$"
+	.string "T'as du courage, toi!$"
 
 Route9_Text_BriceIntro::
 	.string "Hahaha!\n"
-	.string "Aren't you a little toughie!$"
+	.string "T'as l'air coriace, toi!$"
 
 Route9_Text_BriceDefeat::
-	.string "What's that?$"
+	.string "Dur, très dur!$"
 
 Route9_Text_BricePostBattle::
-	.string "Hahaha!\n"
-	.string "Kids should be tough!$"
+	.string "Les gosses, c'est pas assez fort!$"
 
 Route9_Text_BrentIntro::
-	.string "I got up early every day to raise\n"
-	.string "my POKéMON from cocoons!$"
+	.string "Mes cocons de POKéMON me\n"
+	.string "prennent beaucoup de temps!$"
 
 Route9_Text_BrentDefeat::
-	.string "WHAT?\p"
-	.string "What a total waste of time!$"
+	.string "Nyargh?\p"
+	.string "Quelle perte de temps!$"
 
 Route9_Text_BrentPostBattle::
-	.string "I have to collect more than bugs\n"
-	.string "to get stronger…$"
+	.string "Il me faut autre chose que\n"
+	.string "des insectes pour être plus fort…$"
 
 Route9_Text_AlanIntro::
-	.string "Hahahaha!\n"
-	.string "Bring it on!$"
+	.string "Viens t'battre, si tu oses!$"
 
 Route9_Text_AlanDefeat::
-	.string "Hahahaha!\n"
-	.string "You beat me fair!$"
+	.string "Ha!\n"
+	.string "Tu m'as bien eu!$"
 
 Route9_Text_AlanPostBattle::
 	.string "Hahahaha!\n"
-	.string "Us hearty guys always laugh!$"
+	.string "Quand j'perds, j'me marre!$"
 
 Route9_Text_ConnerIntro::
-	.string "Go, my super BUG POKéMON!$"
+	.string "En avant mes POKéMON INSECTE!$"
 
 Route9_Text_ConnerDefeat::
-	.string "My bugs…$"
+	.string "Mes POKéMON!$"
 
 Route9_Text_ConnerPostBattle::
-	.string "If you don't like BUG POKéMON,\n"
-	.string "you bug me!$"
+	.string "T'aimes pas les POKéMON INSECTE?\n"
+	.string "T'es pas chouette!$"
 
 Route9_Text_RouteSign::
 	.string "ROUTE 9\n"
-	.string "CERULEAN CITY - ROCK TUNNEL$"
+	.string "AZURIA - GROTTE$"
 

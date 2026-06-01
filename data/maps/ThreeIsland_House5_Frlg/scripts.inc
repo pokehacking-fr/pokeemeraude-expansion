@@ -15,14 +15,13 @@ ThreeIsland_House5_EventScript_LittleGirlLostelleFound::
 	end
 
 ThreeIsland_House5_Text_ImNotLostelle::
-	.string "Me?\n"
-	.string "I'm not LOSTELLE.\p"
-	.string "She's probably gone to the\n"
-	.string "BERRY FOREST, I think.\p"
-	.string "She picks BERRIES there for making\n"
-	.string "lunch.$"
+	.string "Moi?\n"
+	.string "Bah non, j'm'appelle pas LOSTELLE!\p"
+	.string "Elle est peut-être aux BOIS BAIES.\p"
+	.string "Elle y ramasse souvent des BAIES\n"
+	.string "pour faire à manger.$"
 
 ThreeIsland_House5_Text_IllGoPlayWithLostelle::
-	.string "I think I'll go play with LOSTELLE\n"
-	.string "today.$"
+	.string "J'irais bien jouer avec LOSTELLE\n"
+	.string "aujourd'hui.$"
 

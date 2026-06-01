@@ -30,18 +30,19 @@ FourIsland_Mart_EventScript_Camper::
 	end
 
 FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland::
-	.string "We've had a great and powerful\n"
-	.string "TRAINER grow up on this island.\p"
-	.string "I bet even you'd know her.\n"
-	.string "It's LORELEI of the ELITE FOUR!\p"
-	.string "When LORELEI was just a tyke,\n"
-	.string "I taught her about POKéMON.$"
+	.string "Un DRESSEUR très fort et très\n"
+	.string "connu a grandi sur cette île.\p"
+	.string "Je suis sûr que même toi tu\n"
+	.string "connais son nom.\p"
+	.string "C'est OLGA, du CONSEIL 4.\p"
+	.string "C'est moi qui lui ai tout appris sur\n"
+	.string "les POKéMON il y a des années.$"
 
 FourIsland_Mart_Text_IcefallCaveIsFrigid::
-	.string "The SEVII ISLANDS are in a warm\n"
-	.string "region overall.\p"
-	.string "But there is one exception you\n"
-	.string "need to know about.\p"
-	.string "The ICEFALL CAVE is frigid because\n"
-	.string "of the POKéMON that live in it.$"
+	.string "Les ILES SEVII se trouvent dans\n"
+	.string "une région plutôt chaude.\p"
+	.string "Mais il y a une exception que tu\n"
+	.string "dois connaître.\p"
+	.string "La GROTTE DE GLACE est ainsi\n"
+	.string "à cause du POKéMON qui y vit.$"
 

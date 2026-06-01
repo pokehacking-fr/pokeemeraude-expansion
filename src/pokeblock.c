@@ -130,10 +130,10 @@ static void ReturnToPokeblockCaseOnField(void);
 static void CreateTossPokeblockYesNoMenu(u8);
 static void TossPokeblock(u8);
 
-static const u8 sText_StowCase[] = _("Stow CASE.");
+static const u8 sText_StowCase[] = _("Ranger BOITE.");
 static const u8 sText_LvVar1[] = _("{LV}{STR_VAR_1}");
-static const u8 sText_ThrowAwayVar1[] = _("Throw away this\n{STR_VAR_1}?");
-static const u8 sText_Var1ThrownAway[] = _("The {STR_VAR_1}\nwas thrown away.");
+static const u8 sText_ThrowAwayVar1[] = _("Jeter {STR_VAR_1}?");
+static const u8 sText_Var1ThrownAway[] = _("{STR_VAR_1} a été jeté.");
 
 EWRAM_DATA static struct PokeblockSavedData sSavedPokeblockData = {0};
 EWRAM_DATA static struct PokeblockMenuStruct *sPokeblockMenu = NULL;
@@ -202,20 +202,20 @@ static const struct BgTemplate sBgTemplatesForPokeblockMenu[] =
 const u8 *const gPokeblockNames[] =
 {
     [PBLOCK_CLR_NONE]      = NULL,
-    [PBLOCK_CLR_RED]       = COMPOUND_STRING("RED {POKEBLOCK}"),
-    [PBLOCK_CLR_BLUE]      = COMPOUND_STRING("BLUE {POKEBLOCK}"),
-    [PBLOCK_CLR_PINK]      = COMPOUND_STRING("PINK {POKEBLOCK}"),
-    [PBLOCK_CLR_GREEN]     = COMPOUND_STRING("GREEN {POKEBLOCK}"),
-    [PBLOCK_CLR_YELLOW]    = COMPOUND_STRING("YELLOW {POKEBLOCK}"),
-    [PBLOCK_CLR_PURPLE]    = COMPOUND_STRING("PURPLE {POKEBLOCK}"),
-    [PBLOCK_CLR_INDIGO]    = COMPOUND_STRING("INDIGO {POKEBLOCK}"),
-    [PBLOCK_CLR_BROWN]     = COMPOUND_STRING("BROWN {POKEBLOCK}"),
-    [PBLOCK_CLR_LITE_BLUE] = COMPOUND_STRING("LITEBLUE {POKEBLOCK}"),
-    [PBLOCK_CLR_OLIVE]     = COMPOUND_STRING("OLIVE {POKEBLOCK}"),
-    [PBLOCK_CLR_GRAY]      = COMPOUND_STRING("GRAY {POKEBLOCK}"),
-    [PBLOCK_CLR_BLACK]     = COMPOUND_STRING("BLACK {POKEBLOCK}"),
-    [PBLOCK_CLR_WHITE]     = COMPOUND_STRING("WHITE {POKEBLOCK}"),
-    [PBLOCK_CLR_GOLD]      = COMPOUND_STRING("GOLD {POKEBLOCK}")
+    [PBLOCK_CLR_RED]       = COMPOUND_STRING("{POKEBLOCK} ROUGE"),
+    [PBLOCK_CLR_BLUE]      = COMPOUND_STRING("{POKEBLOCK} BLEU"),
+    [PBLOCK_CLR_PINK]      = COMPOUND_STRING("{POKEBLOCK} ROSE"),
+    [PBLOCK_CLR_GREEN]     = COMPOUND_STRING("{POKEBLOCK} VERT"),
+    [PBLOCK_CLR_YELLOW]    = COMPOUND_STRING("{POKEBLOCK} JAUNE"),
+    [PBLOCK_CLR_PURPLE]    = COMPOUND_STRING("{POKEBLOCK} VIOLET"),
+    [PBLOCK_CLR_INDIGO]    = COMPOUND_STRING("{POKEBLOCK} INDIGO"),
+    [PBLOCK_CLR_BROWN]     = COMPOUND_STRING("{POKEBLOCK} MARRON"),
+    [PBLOCK_CLR_LITE_BLUE] = COMPOUND_STRING("{POKEBLOCK} BLEU CIEL"),
+    [PBLOCK_CLR_OLIVE]     = COMPOUND_STRING("{POKEBLOCK} OLIVE"),
+    [PBLOCK_CLR_GRAY]      = COMPOUND_STRING("{POKEBLOCK} GRIS"),
+    [PBLOCK_CLR_BLACK]     = COMPOUND_STRING("{POKEBLOCK} NOIR"),
+    [PBLOCK_CLR_WHITE]     = COMPOUND_STRING("{POKEBLOCK} BLANC"),
+    [PBLOCK_CLR_GOLD]      = COMPOUND_STRING("{POKEBLOCK} OR")
 };
 
 static const struct MenuAction sPokeblockMenuActions[] =
@@ -314,7 +314,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .bg = 0,
         .tilemapLeft = 2,
         .tilemapTop = 1,
-        .width = 9,
+        .width = 10, //!< French Difference
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x1E
@@ -326,7 +326,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 14,
         .height = 18,
         .paletteNum = 15,
-        .baseBlock = 0x30
+        .baseBlock = 0x32 //!< French Difference
     },
     [WIN_SPICY] = {
         .bg = 0,
@@ -335,7 +335,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x12C
+        .baseBlock = 0x12E //!< French Difference
     },
     [WIN_DRY] = {
         .bg = 0,
@@ -344,7 +344,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x136
+        .baseBlock = 0x138 //!< French Difference
     },
     [WIN_SWEET] = {
         .bg = 0,
@@ -353,7 +353,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x140
+        .baseBlock = 0x142 //!< French Difference
     },
     [WIN_BITTER] = {
         .bg = 0,
@@ -362,7 +362,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x14A
+        .baseBlock = 0x14C //!< French Difference
     },
     [WIN_SOUR] = {
         .bg = 0,
@@ -371,7 +371,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x154
+        .baseBlock = 0x156 //!< French Difference
     },
     [WIN_FEEL] = {
         .bg = 0,
@@ -380,7 +380,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 2,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x15E
+        .baseBlock = 0x160 //!< French Difference
     },
     [WIN_ACTIONS_TALL] = {
         .bg = 1,
@@ -389,7 +389,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 6,
         .height = 6,
         .paletteNum = 15,
-        .baseBlock = 0x162
+        .baseBlock = 0x164 //!< French Difference
     },
     [WIN_ACTIONS] = {
         .bg = 1,
@@ -398,7 +398,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 6,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x186
+        .baseBlock = 0x188 //!< French Difference
     },
     [WIN_TOSS_MSG] = {
         .bg = 1,
@@ -407,7 +407,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x19E
+        .baseBlock = 0x1A0 //!< French Difference
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -420,7 +420,7 @@ static const struct WindowTemplate sTossPkblockWindowTemplate =
     .width = 5,
     .height = 4,
     .paletteNum = 15,
-    .baseBlock = 0x20A
+    .baseBlock = 0x20C //!< French Difference
 };
 
 static const struct ListMenuTemplate sPokeblockListMenuTemplate =
@@ -702,13 +702,13 @@ static void DrawPokeblockMenuTitleText(void)
     u8 i;
 
     const u8 *itemName = GetItemName(ITEM_POKEBLOCK_CASE);
-    PrintOnPokeblockWindow(WIN_TITLE, itemName, GetStringCenterAlignXOffset(FONT_NORMAL, itemName, 0x48));
+    PrintOnPokeblockWindow(WIN_TITLE, itemName, GetStringCenterAlignXOffset(FONT_NORMAL, itemName, 0x50)); //!< French Difference
 
-    PrintOnPokeblockWindow(WIN_SPICY,  COMPOUND_STRING("SPICY"),  0);
-    PrintOnPokeblockWindow(WIN_DRY,    COMPOUND_STRING("DRY"),    0);
-    PrintOnPokeblockWindow(WIN_SWEET,  COMPOUND_STRING("SWEET"),  0);
-    PrintOnPokeblockWindow(WIN_BITTER, COMPOUND_STRING("BITTER"), 0);
-    PrintOnPokeblockWindow(WIN_SOUR,   COMPOUND_STRING("SOUR"),   0);
+    PrintOnPokeblockWindow(WIN_SPICY,  COMPOUND_STRING("EPICE"),  0);
+    PrintOnPokeblockWindow(WIN_DRY,    COMPOUND_STRING("SEC"),    0);
+    PrintOnPokeblockWindow(WIN_SWEET,  COMPOUND_STRING("SUCRE"),  0);
+    PrintOnPokeblockWindow(WIN_BITTER, COMPOUND_STRING("AMER"), 0);
+    PrintOnPokeblockWindow(WIN_SOUR,   COMPOUND_STRING("ACIDE"),   0);
 
     for (i = 0; i < WIN_ACTIONS_TALL; i++)
         PutWindowTilemap(i);

@@ -110,7 +110,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 8,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 69,
+        .baseBlock = 72, //!< French Difference
     },
     [WIN_SIZE_FIRM] = {
         .bg = 1,
@@ -119,16 +119,16 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 18,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 85,
+        .baseBlock = 88, //!< French Difference
     },
     [WIN_DESC] = {
         .bg = 1,
-        .tilemapLeft = 4,
+        .tilemapLeft = 3, //!< French Difference
         .tilemapTop = 14,
-        .width = 25,
+        .width = 27, //!< French Difference
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 157,
+        .baseBlock = 160, //!< French Difference
     },
     [WIN_BERRY_TAG] = {
         .bg = 0,
@@ -137,7 +137,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .width = 8,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 257,
+        .baseBlock = 268, //!< French Difference
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -145,11 +145,11 @@ static const struct WindowTemplate sWindowTemplates[] =
 static const u8 *const sBerryFirmnessStrings[] =
 {
     [BERRY_FIRMNESS_UNKNOWN]    = COMPOUND_STRING("???"),
-    [BERRY_FIRMNESS_VERY_SOFT]  = COMPOUND_STRING("Very soft"),
-    [BERRY_FIRMNESS_SOFT]       = COMPOUND_STRING("Soft"),
-    [BERRY_FIRMNESS_HARD]       = COMPOUND_STRING("Hard"),
-    [BERRY_FIRMNESS_VERY_HARD]  = COMPOUND_STRING("Very hard"),
-    [BERRY_FIRMNESS_SUPER_HARD] = COMPOUND_STRING("Super hard")
+    [BERRY_FIRMNESS_VERY_SOFT]  = COMPOUND_STRING("très tendre"),
+    [BERRY_FIRMNESS_SOFT]       = COMPOUND_STRING("tendre"),
+    [BERRY_FIRMNESS_HARD]       = COMPOUND_STRING("ferme"),
+    [BERRY_FIRMNESS_VERY_HARD]  = COMPOUND_STRING("très ferme"),
+    [BERRY_FIRMNESS_SUPER_HARD] = COMPOUND_STRING("super ferme")
 };
 
 // this file's functions
@@ -174,11 +174,11 @@ static void Task_DisplayAnotherBerry(u8 taskId);
 static void TryChangeDisplayedBerry(u8 taskId, s8 toMove);
 static void HandleBagCursorPositionChange(s8 toMove);
 
-static const u8 sText_SizeSlash[] = _("SIZE /");
-static const u8 sText_FirmSlash[] = _("FIRM /");
-static const u8 sText_Var1DotVar2[] = _("{STR_VAR_1}.{STR_VAR_2}”");
+static const u8 sText_SizeSlash[] = _("DIM.:");
+static const u8 sText_FirmSlash[] = _("FERM.:");
+static const u8 sText_Var1DotVar2[] = _("{STR_VAR_1},{STR_VAR_2} cm");
 static const u8 sText_NumberVar1Var2[] = _("{NO}{STR_VAR_1} {STR_VAR_2}");
-static const u8 sText_BerryTag[] = _("BERRY TAG");
+static const u8 sText_BerryTag[] = _("ETIQUETTE");
 static const u8 sText_ThreeMarks[] = _("???");
 
 // code
@@ -418,6 +418,9 @@ static void PrintBerryNumberAndName(void)
     PrintTextInBerryTagScreen(WIN_BERRY_NAME, gStringVar4, 0, 1, 0, 0);
 }
 
+/**
+ * French Difference
+*/
 static void PrintBerrySize(void)
 {
     const struct BerryInfo *berryInfo = GetBerryInfo(sBerryTag->berryId);
@@ -456,13 +459,13 @@ static void PrintBerryFirmness(void)
 static void PrintBerryDescription1(void)
 {
     const struct BerryInfo *berryInfo = GetBerryInfo(sBerryTag->berryId);
-    AddTextPrinterParameterized(WIN_DESC, FONT_NORMAL, berryInfo->description1, 0, 1, 0, NULL);
+    AddTextPrinterParameterized(WIN_DESC, FONT_NORMAL, berryInfo->description1, 5, 1, 0, NULL); //!< French Difference
 }
 
 static void PrintBerryDescription2(void)
 {
     const struct BerryInfo *berryInfo = GetBerryInfo(sBerryTag->berryId);
-    AddTextPrinterParameterized(WIN_DESC, FONT_NORMAL, berryInfo->description2, 0, 0x11, 0, NULL);
+    AddTextPrinterParameterized(WIN_DESC, FONT_NORMAL, berryInfo->description2, 5, 0x11, 0, NULL); //!< French Difference
 }
 
 static void CreateBerrySprite(void)

@@ -39,36 +39,36 @@ static const struct LilycoveContestLadyValues sContestLadyValues[] =
     [CONTEST_CATEGORY_COOL] = {
         .monGfxId = OBJ_EVENT_GFX_ZIGZAGOON_1,
         .monSpecies = SPECIES_ZIGZAGOON,
-        .monName = COMPOUND_STRING("HANDSOME"),
-        .categoryName = COMPOUND_STRING("coolness"),
+        .monName = COMPOUND_STRING("LE SUBLIME"),
+        .categoryName = COMPOUND_STRING("sang-froid"),
         .contestName = gText_CoolnessContest,
     },
     [CONTEST_CATEGORY_BEAUTY] = {
         .monGfxId = OBJ_EVENT_GFX_SKITTY,
         .monSpecies = SPECIES_SKITTY,
-        .monName = COMPOUND_STRING("VINNY"),
-        .categoryName = COMPOUND_STRING("beauty"),
+        .monName = COMPOUND_STRING("L'ENORME"),
+        .categoryName = COMPOUND_STRING("beauté"),
         .contestName = gText_BeautyContest,
     },
     [CONTEST_CATEGORY_CUTE] = {
         .monGfxId = OBJ_EVENT_GFX_POOCHYENA,
         .monSpecies = SPECIES_POOCHYENA,
-        .monName = COMPOUND_STRING("MOREME"),
-        .categoryName = COMPOUND_STRING("cuteness"),
+        .monName = COMPOUND_STRING("L'UNIQUE"),
+        .categoryName = COMPOUND_STRING("grâce"),
         .contestName = gText_CutenessContest,
     },
     [CONTEST_CATEGORY_SMART] = {
         .monGfxId = OBJ_EVENT_GFX_KECLEON,
         .monSpecies = SPECIES_KECLEON,
-        .monName = COMPOUND_STRING("IRONHARD"),
-        .categoryName = COMPOUND_STRING("smartness"),
+        .monName = COMPOUND_STRING("LE SOLIDE"),
+        .categoryName = COMPOUND_STRING("intelligence"),
         .contestName = gText_SmartnessContest,
     },
     [CONTEST_CATEGORY_TOUGH] = {
         .monGfxId = OBJ_EVENT_GFX_PIKACHU,
         .monSpecies = SPECIES_PIKACHU,
-        .monName = COMPOUND_STRING("MUSCLE"),
-        .categoryName = COMPOUND_STRING("toughness"),
+        .monName = COMPOUND_STRING("LE MUSCLE"),
+        .categoryName = COMPOUND_STRING("robustesse"),
         .contestName = gText_ToughnessContest,
     },
 };
@@ -76,230 +76,230 @@ static const struct LilycoveContestLadyValues sContestLadyValues[] =
 // Quiz Lady data
 static const u16 sQuizLadyQuestion1[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_STORES,
-    EC_WORD_INFORMATION,
-    EC_WORD_ON,
-    EC_WORD_POKEMON,
-    EC_WORD_QUES,
-    EC_WORD_CAMERA,
-    EC_WORD_POKEDEX,
-    EC_WORD_POKENAV
+   EC_WORD_CASE,
+   EC_WORD_INFORMATION,
+   EC_WORD_UP,
+   EC_WORD_CASE,
+   EC_WORD_POKEMON,
+   EC_WORD_QUES,
+   EC_WORD_PHONE,
+   EC_WORD_POKEDEX,
+   EC_WORD_POKENAV
 };
 
 static const u16 sQuizLadyQuestion2[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_ISN_T,
-    EC_WORD_A,
-    EC_WORD_GAME,
-    EC_WORD_VERSION,
-    EC_WORD_QUES,
-    EC_WORD_RUBY,
-    EC_WORD_SAPPHIRE,
-    EC_WORD_DARK
+   EC_WORD_CASE,
+   EC_WORD_COMPLETE,
+   EC_WORD_IT_S,
+   EC_WORD_QUES,
+   EC_WORD_AWESOME,
+   EC_WORD_NO_MATCH,
+   EC_WORD_OR,
+   EC_WORD_SCARY,
+   EC_EMPTY_WORD
 };
 
 static const u16 sQuizLadyQuestion3[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_HOW,
-    EC_WORD_DO,
-    EC_WORD_POKEMON,
-    EC_WORD_EVOLVE,
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_LEVEL,
-    EC_WORD_INSOMNIA,
-    EC_WORD_CUTE_CHARM
+   EC_WORD_HOW,
+   EC_WORD_MAKE,
+   EC_WORD_EVOLVE,
+   EC_WORD_CASE,
+   EC_WORD_POKEMON,
+   EC_WORD_QUES,
+   EC_WORD_LEVEL,
+   EC_WORD_INSOMNIA,
+   EC_WORD_CUTE_CHARM,
 };
 
 static const u16 sQuizLadyQuestion4[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_IS,
-    EC_WORD_THE,
-    EC_WORD_PRETTY,
-    EC_WORD_ITEM,
-    EC_WORD_QUES,
-    EC_WORD_COLD,
-    EC_WORD_FLOWERS,
-    EC_WORD_MACHINE
+   EC_WORD_IT_S,
+   EC_EMPTY_WORD,
+   EC_WORD_GOOD,
+   EC_WORD_QUES,
+   EC_WORD_RADIO,
+   EC_WORD_SWEETS,
+   EC_WORD_MACHINE,
+   EC_EMPTY_WORD,
+   EC_EMPTY_WORD
 };
 
 static const u16 sQuizLadyQuestion5[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_ITEM,
-    EC_WORD_DO,
-    EC_WORD_YOU,
-    EC_WORD_BREAK,
-    EC_WORD_QUES,
-    EC_WORD_EGG,
-    EC_WORD_MAIL,
-    EC_WORD_PHONE
+   EC_WORD_WHAT,
+   EC_WORD_ITEM,
+   EC_WORD_AREN_T,
+   EC_EMPTY_WORD,
+   EC_WORD_IGNORANT,
+   EC_WORD_QUES,
+   EC_WORD_EGG,
+   EC_WORD_MAIL,
+   EC_WORD_PHONE
 };
 
 static const u16 sQuizLadyQuestion6[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
-    EC_MOVE2(CONFUSION),
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_ILLUMINATE,
-    EC_WORD_OWN_TEMPO,
-    EC_WORD_SWIFT_SWIM
+   EC_WORD_EVEN_SO,
+   EC_WORD_USES,
+   EC_WORD_SO,
+   EC_EMPTY_WORD,
+   EC_WORD_CONFUSED,
+   EC_WORD_QUES,
+   EC_WORD_ILLUMINATE,
+   EC_WORD_OWN_TEMPO,
+   EC_WORD_SWIFT_SWIM
 };
 
 static const u16 sQuizLadyQuestion7[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_OF,
-    EC_WORD_THESE,
-    EC_WORD_IS,
-    EC_WORD_MUSIC,
-    EC_WORD_QUES,
-    EC_WORD_FLYING,
-    EC_WORD_STEEL,
-    EC_WORD_ROCK
+   EC_WORD_A,
+   EC_WORD_POKEMON,
+   EC_WORD_IT_S,
+   EC_WORD_QUES,
+   EC_EMPTY_WORD,
+   EC_EMPTY_WORD,
+   EC_WORD_LOVEY_DOVEY,
+   EC_WORD_TERRIBLE,
+   EC_WORD_NO_MATCH
 };
 
 static const u16 sQuizLadyQuestion8[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_MOVE2(BLOCK),
-    EC_WORD_ESCAPE,
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_RUN_AWAY,
-    EC_WORD_SHADOW_TAG,
-    EC_WORD_WONDER_GUARD
+   EC_WORD_EVEN_SO,
+   EC_WORD_USES,
+   EC_WORD_VERSUS,
+   EC_WORD_FEELING,
+   EC_WORD_RUN_AWAY,
+   EC_WORD_QUES,
+   EC_WORD_VOLT_ABSORB,
+   EC_WORD_SHADOW_TAG,
+   EC_WORD_WONDER_GUARD
 };
 
 static const u16 sQuizLadyQuestion9[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
-    EC_WORD_POISON,
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_GUTS,
-    EC_WORD_IMMUNITY,
-    EC_WORD_SHED_SKIN
+   EC_WORD_FOR,
+   EC_WORD_FIGHT,
+   EC_WORD_THE,
+   EC_EMPTY_WORD,
+   EC_WORD_POISON,
+   EC_WORD_QUES,
+   EC_WORD_GUTS,
+   EC_WORD_IMMUNITY,
+   EC_WORD_SHED_SKIN
 };
 
 static const u16 sQuizLadyQuestion10[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_GOES,
-    EC_WORD_WITH,
-    EC_WORD_CENTER,
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_POKEDEX,
-    EC_WORD_POKEMON,
-    EC_WORD_POKENAV
+   EC_WORD_FOREVER,
+   EC_WORD_SATURDAY,
+   EC_WORD_IT_S,
+   EC_WORD_QUES,
+   EC_EMPTY_WORD,
+   EC_EMPTY_WORD,
+   EC_WORD_SUNDAY,
+   EC_WORD_TUESDAY,
+   EC_WORD_THURSDAY
 };
 
 static const u16 sQuizLadyQuestion11[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_STORES,
-    EC_WORD_YOUR,
-    EC_WORD_POKEMON,
-    EC_WORD_QUES,
-    EC_EMPTY_WORD,
-    EC_WORD_PC,
-    EC_WORD_DEPT_STORE,
-    EC_WORD_TELEVISION
+   EC_WORD_IT_S,
+   EC_WORD_FULL,
+   EC_WORD_OF,
+   EC_EMPTY_WORD,
+   EC_WORD_SOFTWARE,
+   EC_WORD_QUES,
+   EC_WORD_DEPT_STORE,
+   EC_WORD_SCHOOL,
+   EC_WORD_MACHINE
 };
 
 static const u16 sQuizLadyQuestion12[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_MACHINE,
-    EC_WORD_GIVES,
-    EC_WORD_YOU,
-    EC_WORD_INFORMATION,
-    EC_WORD_QUES,
-    EC_WORD_BIKE,
-    EC_WORD_LOCOMOTIVE,
-    EC_WORD_TELEVISION
+   EC_WORD_HOW,
+   EC_WORD_HAVE,
+   EC_WORD_MOOD,
+   EC_EMPTY_WORD,
+   EC_WORD_INFORMATION,
+   EC_WORD_QUES,
+   EC_WORD_BIKE,
+   EC_WORD_LOCOMOTIVE,
+   EC_WORD_TELEVISION
 };
 
 static const u16 sQuizLadyQuestion13[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_A,
-    EC_WORD_POKEMON,
-    EC_WORD_WAS,
-    EC_WORD_ONCE,
-    EC_WORD_THIS,
-    EC_WORD_QUES,
-    EC_WORD_PHONE,
-    EC_WORD_PLUSH_DOLL,
-    EC_WORD_LETTER
+   EC_MOVE2(WATER_PULSE),
+   EC_WORD_IT_S,
+   EC_WORD_AN,
+   EC_WORD_QUES,
+   EC_WORD_MOVE,
+   EC_WORD_COLOR,
+   EC_WORD_OR,
+   EC_WORD_AN,
+   EC_WORD_AWAY
 };
 
 static const u16 sQuizLadyQuestion14[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_STEEL,
-    EC_WORD_IS,
-    EC_WORD_STRONG,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_ICE,
-    EC_WORD_GROUND,
-    EC_EMPTY_WORD
+   EC_WORD_STEEL,
+   EC_WORD_IS,
+   EC_WORD_STRONG,
+   EC_EMPTY_WORD,
+   EC_WORD_VERSUS,
+   EC_WORD_QUES,
+   EC_WORD_ICE,
+   EC_EMPTY_WORD,
+   EC_WORD_GROUND
 };
 
 static const u16 sQuizLadyQuestion15[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_DARK,
-    EC_WORD_IS,
-    EC_WORD_WEAK,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_PSYCHIC,
-    EC_WORD_FIGHTING,
-    EC_EMPTY_WORD
+   EC_WORD_DARK,
+   EC_WORD_IS,
+   EC_WORD_WEAK,
+   EC_EMPTY_WORD,
+   EC_WORD_VERSUS,
+   EC_WORD_QUES,
+   EC_WORD_PSYCHIC,
+   EC_EMPTY_WORD,
+   EC_WORD_FIGHTING
 };
 
 static const u16 sQuizLadyQuestion16[QUIZ_QUESTION_LEN] =
 {
-    EC_WORD_GHOST,
-    EC_WORD_IS,
-    EC_WORD_WEAK,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_NORMAL,
-    EC_WORD_DARK,
-    EC_EMPTY_WORD
+   EC_WORD_GHOST,
+   EC_WORD_IS,
+   EC_WORD_WEAK,
+   EC_EMPTY_WORD,
+   EC_WORD_VERSUS,
+   EC_WORD_QUES,
+   EC_WORD_NORMAL,
+   EC_WORD_DARK,
+   EC_EMPTY_WORD
 };
 
 static const struct LilycoveQuizLadyQuestions sQuizLadyQuestions[] =
 {
-    {.question = sQuizLadyQuestion1,  .answer = EC_WORD_POKEDEX,    .prize = ITEM_GLITTER_MAIL},
-    {.question = sQuizLadyQuestion2,  .answer = EC_WORD_DARK,       .prize = ITEM_BEAD_MAIL},
-    {.question = sQuizLadyQuestion3,  .answer = EC_WORD_LEVEL,      .prize = ITEM_TROPIC_MAIL},
-    {.question = sQuizLadyQuestion4,  .answer = EC_WORD_FLOWERS,    .prize = ITEM_MAX_ETHER},
-    {.question = sQuizLadyQuestion5,  .answer = EC_WORD_EGG,        .prize = ITEM_MAX_ETHER},
-    {.question = sQuizLadyQuestion6,  .answer = EC_WORD_OWN_TEMPO,  .prize = ITEM_MAX_ETHER},
-    {.question = sQuizLadyQuestion7,  .answer = EC_WORD_ROCK,       .prize = ITEM_WATMEL_BERRY},
-    {.question = sQuizLadyQuestion8,  .answer = EC_WORD_SHADOW_TAG, .prize = ITEM_BELUE_BERRY},
-    {.question = sQuizLadyQuestion9,  .answer = EC_WORD_IMMUNITY,   .prize = ITEM_DURIN_BERRY},
-    {.question = sQuizLadyQuestion10, .answer = EC_WORD_POKEMON,    .prize = ITEM_LUXURY_BALL},
-    {.question = sQuizLadyQuestion11, .answer = EC_WORD_PC,         .prize = ITEM_TM_HYPER_BEAM},
-    {.question = sQuizLadyQuestion12, .answer = EC_WORD_TELEVISION, .prize = ITEM_BIG_PEARL},
-    {.question = sQuizLadyQuestion13, .answer = EC_WORD_PLUSH_DOLL, .prize = ITEM_STAR_PIECE},
-    {.question = sQuizLadyQuestion14, .answer = EC_WORD_ICE,        .prize = ITEM_RARE_CANDY},
-    {.question = sQuizLadyQuestion15, .answer = EC_WORD_FIGHTING,   .prize = ITEM_RARE_CANDY},
-    {.question = sQuizLadyQuestion16, .answer = EC_WORD_DARK,       .prize = ITEM_PREMIER_BALL},
+    {.question = sQuizLadyQuestion1,  .answer = EC_WORD_POKEDEX,     .prize = ITEM_GLITTER_MAIL},
+    {.question = sQuizLadyQuestion2,  .answer = EC_WORD_AWESOME,     .prize = ITEM_BEAD_MAIL},
+    {.question = sQuizLadyQuestion3,  .answer = EC_WORD_LEVEL,       .prize = ITEM_TROPIC_MAIL},
+    {.question = sQuizLadyQuestion4,  .answer = EC_WORD_SWEETS,      .prize = ITEM_MAX_ETHER},
+    {.question = sQuizLadyQuestion5,  .answer = EC_WORD_EGG,         .prize = ITEM_MAX_ETHER},
+    {.question = sQuizLadyQuestion6,  .answer = EC_WORD_OWN_TEMPO,   .prize = ITEM_MAX_ETHER},
+    {.question = sQuizLadyQuestion7,  .answer = EC_WORD_LOVEY_DOVEY, .prize = ITEM_WATMEL_BERRY},
+    {.question = sQuizLadyQuestion8,  .answer = EC_WORD_SHADOW_TAG,  .prize = ITEM_BELUE_BERRY},
+    {.question = sQuizLadyQuestion9,  .answer = EC_WORD_IMMUNITY,    .prize = ITEM_DURIN_BERRY},
+    {.question = sQuizLadyQuestion10, .answer = EC_WORD_SUNDAY,      .prize = ITEM_LUXURY_BALL},
+    {.question = sQuizLadyQuestion11, .answer = EC_WORD_MACHINE,     .prize = ITEM_TM_HYPER_BEAM},
+    {.question = sQuizLadyQuestion12, .answer = EC_WORD_TELEVISION,  .prize = ITEM_BIG_PEARL},
+    {.question = sQuizLadyQuestion13, .answer = EC_WORD_MOVE,        .prize = ITEM_STAR_PIECE},
+    {.question = sQuizLadyQuestion14, .answer = EC_WORD_ICE,         .prize = ITEM_RARE_CANDY},
+    {.question = sQuizLadyQuestion15, .answer = EC_WORD_FIGHTING,    .prize = ITEM_RARE_CANDY},
+    {.question = sQuizLadyQuestion16, .answer = EC_WORD_DARK,        .prize = ITEM_PREMIER_BALL},
 };
 
 // Favor Lady data
@@ -417,10 +417,10 @@ static const u16 sFavorLadyAcceptedItems_Pointy[] =
 
 static const struct LilycoveFavorLady sFavorLady[] =
 {
-    {.request = COMPOUND_STRING("slippery"), .acceptedItems = sFavorLadyAcceptedItems_Slippery, .prize = ITEM_LUXURY_BALL},
-    {.request = COMPOUND_STRING("roundish"), .acceptedItems = sFavorLadyAcceptedItems_Roundish, .prize = ITEM_NUGGET},
-    {.request = COMPOUND_STRING("wham-ish"), .acceptedItems = sFavorLadyAcceptedItems_Whamish,  .prize = ITEM_PROTEIN},
-    {.request = COMPOUND_STRING("shiny"),    .acceptedItems = sFavorLadyAcceptedItems_Shiny,    .prize = ITEM_HEART_SCALE},
-    {.request = COMPOUND_STRING("sticky"),   .acceptedItems = sFavorLadyAcceptedItems_Sticky,   .prize = ITEM_RARE_CANDY},
-    {.request = COMPOUND_STRING("pointy"),   .acceptedItems = sFavorLadyAcceptedItems_Pointy,   .prize = ITEM_PP_MAX},
+    {.request = COMPOUND_STRING("glissant"), .acceptedItems = sFavorLadyAcceptedItems_Slippery, .prize = ITEM_LUXURY_BALL},
+    {.request = COMPOUND_STRING("rond"), .acceptedItems = sFavorLadyAcceptedItems_Roundish, .prize = ITEM_NUGGET},
+    {.request = COMPOUND_STRING("bruyant"), .acceptedItems = sFavorLadyAcceptedItems_Whamish,  .prize = ITEM_PROTEIN},
+    {.request = COMPOUND_STRING("brillant"),    .acceptedItems = sFavorLadyAcceptedItems_Shiny,    .prize = ITEM_HEART_SCALE},
+    {.request = COMPOUND_STRING("collant"),   .acceptedItems = sFavorLadyAcceptedItems_Sticky,   .prize = ITEM_RARE_CANDY},
+    {.request = COMPOUND_STRING("pointu"),   .acceptedItems = sFavorLadyAcceptedItems_Pointy,   .prize = ITEM_PP_MAX},
 };

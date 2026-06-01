@@ -6,9 +6,10 @@ SixIsland_House_EventScript_OldMan::
 	end
 
 SixIsland_House_Text_GoodPlaceForNatureAndHistory::
-	.string "There's nothing that young people'd\n"
-	.string "find exciting here on this island.\p"
-	.string "But, this is a good place in terms\n"
-	.string "of nature and history.\p"
-	.string "Relax and enjoy your stay.$"
+	.string "Il n'y a vraiment rien de bien\n"
+	.string "intéressant pour les jeunes ici.\p"
+	.string "Mais historiquement, cet endroit\n"
+	.string "est sans égal.\p"
+	.string "Repose-toi, et profite de ton\n"
+	.string "séjour.$"
 

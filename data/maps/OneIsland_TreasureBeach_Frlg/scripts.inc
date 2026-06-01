@@ -6,20 +6,20 @@ OneIsland_TreasureBeach_EventScript_Boy::
 	end
 
 OneIsland_TreasureBeach_Text_AmaraIntro::
-	.string "Lying back, rocked by the waves…\n"
-	.string "It's exquisite.$"
+	.string "Se faire balloter par les vagues…\n"
+	.string "J'adore!$"
 
 OneIsland_TreasureBeach_Text_AmaraDefeat::
-	.string "I lost…\n"
-	.string "It feels awful.$"
+	.string "J'ai perdu…\n"
+	.string "C'est vraiment trop injuste.$"
 
 OneIsland_TreasureBeach_Text_AmaraPostBattle::
-	.string "The sea is pleasantly warm in these\n"
-	.string "parts.$"
+	.string "L'eau est vraiment à la température\n"
+	.string "idéale par ici.$"
 
 OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach::
-	.string "Good things get washed up by the\n"
-	.string "ocean current onto this beach.\p"
-	.string "That's why I often come here for\n"
-	.string "some beachcombing.$"
+	.string "Le courant dépose souvent plein\n"
+	.string "d'objets sur la plage.\p"
+	.string "Je viens souvent voir s'il n'y a\n"
+	.string "rien d'intéressant à trouver.$"
 

@@ -12,28 +12,29 @@ SSAnne_B1F_Room1_EventScript_Phillip::
 	end
 
 SSAnne_B1F_Room1_Text_PhillipIntro::
-	.string "Matey, you're walking the plank if\n"
-	.string "you lose!$"
+	.string "Si tu perds, on te balance aux\n"
+	.string "requins!$"
 
 SSAnne_B1F_Room1_Text_PhillipDefeat::
-	.string "Argh!\n"
-	.string "Beaten by a kid!$"
+	.string "Hein?\n"
+	.string "Battu par toi?$"
 
 SSAnne_B1F_Room1_Text_PhillipPostBattle::
-	.string "When we're out at sea, jellyfish\n"
-	.string "POKéMON sometimes drift by.$"
+	.string "Quelques POKéMON sont souvent\n"
+	.string "entraînés dans le sillage du\l"
+	.string "bateau…$"
 
 SSAnne_B1F_Room1_Text_BarnyIntro::
-	.string "Hello, stranger!\p"
-	.string "I can't tell if you're from the seas\n"
-	.string "or mountains, but stop and chat.\p"
-	.string "All my POKéMON are from the sea.$"
+	.string "Salut étranger!\n"
+	.string "Parlons un peu!\p"
+	.string "Tous mes POKéMON viennent\n"
+	.string "de la mer!$"
 
 SSAnne_B1F_Room1_Text_BarnyDefeat::
-	.string "Darn!\n"
-	.string "I let that one get away!$"
+	.string "Zut!\n"
+	.string "Celui-là s'est échappé!$"
 
 SSAnne_B1F_Room1_Text_BarnyPostBattle::
-	.string "I was going to make you my\n"
-	.string "assistant, too!$"
+	.string "Je cherche un assistant. Tu aurais\n"
+	.string "pu faire l'affaire.$"
 

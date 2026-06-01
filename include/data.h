@@ -157,7 +157,7 @@ struct TrainerClass
 struct TypeInfo
 {
     u8 name[TYPE_NAME_LENGTH + 1];
-    u8 generic[17];
+    u8 generic[22];
     u8 palette;
     u16 zMove;
     u16 maxMove;
@@ -300,6 +300,8 @@ static inline const enum TrainerClassID GetTrainerClassFromId(u16 trainerId)
     return trainer->trainerClass;
 }
 
+// TODO(french): Explore using this as a middleman to call
+// GetTrainerNameClassGenderSpecific.
 static inline const u8 *GetTrainerClassNameFromId(u16 trainerId)
 {
     return gTrainerClasses[GetTrainerClassFromId(trainerId)].name;

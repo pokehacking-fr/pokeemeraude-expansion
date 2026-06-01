@@ -7,13 +7,14 @@ SSAnne_1F_Room7_EventScript_Thomas::
 	end
 
 SSAnne_1F_Room7_Text_ThomasIntro::
-	.string "I am but a solitary traveler…\p"
-	.string "My sole companions and friends are\n"
-	.string "POKéMON I caught on my journeys…$"
+	.string "Je voyage toujours en solitaire!\p"
+	.string "Mes POKéMON sont mes amis!$"
 
 SSAnne_1F_Room7_Text_ThomasDefeat::
-	.string "My, my friends…$"
+	.string "Non!\n"
+	.string "Mes p'tits amis!$"
 
 SSAnne_1F_Room7_Text_ThomasPostBattle::
-	.string "You should be nice to friends!$"
+	.string "Il faut être gentil avec ses\n"
+	.string "POKéMON!$"
 

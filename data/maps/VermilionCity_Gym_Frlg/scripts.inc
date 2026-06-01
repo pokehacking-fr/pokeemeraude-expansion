@@ -286,136 +286,142 @@ VermilionCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 VermilionCity_Gym_Text_LtSurgeIntro::
-	.string "Hey, kid! What do you think you're\n"
-	.string "doing here?\p"
-	.string "You won't live long in combat!\n"
-	.string "Not with your puny power!\p"
-	.string "I tell you, kid, electric POKéMON\n"
-	.string "saved me during the war!\p"
-	.string "They zapped my enemies into\n"
-	.string "paralysis!\p"
-	.string "The same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Hé!\n"
+	.string "Tu fais quoi là?\p"
+	.string "Tu ne résisterais pas longtemps en\n"
+	.string "temps de guerre!\p"
+	.string "Je vais t'avouer quelque\n"
+	.string "chose, les POKéMON ELECTRIK\p"
+	.string "m'ont sauvé pendant la guerre.\p"
+	.string "Ils ont paralysé mes ennemis avec\n"
+	.string "leurs éclairs! Comme je te le dis!\p"
+	.string "Et y va t'arriver la même chose!\n"
+	.string "Compte tes dents! Tu vas morfler!{PLAY_BGM MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-	.string "A little word of advice, kid!\p"
-	.string "Electricity is sure powerful!\p"
-	.string "But, it's useless against GROUND-\n"
-	.string "type POKéMON!$"
+	.string "Un p'tit conseil!\p"
+	.string "L'électricité est très puissante!\p"
+	.string "Mais elle est inutile face à des\n"
+	.string "POKéMON SOL!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-	.string "The THUNDERBADGE cranks up your\n"
-	.string "POKéMON's SPEED!\p"
-	.string "It also lets your POKéMON FLY\n"
-	.string "lightning-quick anytime, kid!\p"
-	.string "You're special, kid!\n"
-	.string "Take this!$"
+	.string "Le BADGEFOUDRE augmente la\n"
+	.string "VITESSE de tes POKéMON!\p"
+	.string "Il permet aussi à tes POKéMON\n"
+	.string "d'utiliser VOL!\p"
+	.string "T'es quelqu'un de pas ordinaire!\n"
+	.string "Prends ça!$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-	.string "{PLAYER} received TM34\n"
-	.string "from LT. SURGE.$"
+	.string "{PLAYER} reçoit\n"
+	.string "la CT34!$"
 
 VermilionCity_Gym_Text_ExplainTM34::
-	.string "TM34 contains SHOCK WAVE!\p"
-	.string "Teach it to an ELECTRIC POKéMON!$"
+	.string "CT34 : ONDE DE CHOC!\p"
+	.string "Enseigne-la à un\n"
+	.string "POKéMON ELECTRIK!$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-	.string "Yo, kid, make room in your BAG!$"
+	.string "Revue d'paquetage la bleusaille,\n"
+	.string "ton inventaire est plein!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-	.string "Now that's a shocker!\p"
-	.string "You're the real deal, kid!\p"
-	.string "Fine, then, take the THUNDERBADGE!$"
+	.string "Whoo!\p"
+	.string "T'iras loin toi.\p"
+	.string "Très bien, prends le BADGEFOUDRE!$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-	.string "When I was in the Army, LT. SURGE\n"
-	.string "was my strict CO.\p"
-	.string "He was a hard taskmaster.$"
+	.string "A l'armée, MAJOR BOB\n"
+	.string "était mon supérieur.\p"
+	.string "C'était très instructif d'être sous\n"
+	.string "ses ordres.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
 	.string "Stop!\n"
-	.string "You're very good!$"
+	.string "J'en peux plus!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-	.string "It's not easy opening that door.\p"
-	.string "LT. SURGE was always famous for\n"
-	.string "his cautious nature in the Army.$"
+	.string "Tu ne trouves pas les\n"
+	.string "interrupteurs?\p"
+	.string "Le MAJOR BOB a toujours été\n"
+	.string "reconnu pour sa nature prudente.$"
 
 VermilionCity_Gym_Text_BailyIntro::
-	.string "I'm a lightweight, but I'm good\n"
-	.string "with electricity!\p"
-	.string "That's why I joined this GYM.$"
+	.string "J'suis un poids plume, mais j'suis\n"
+	.string "bon avec l'électricité!$"
 
 VermilionCity_Gym_Text_BailyDefeat::
-	.string "Fried!$"
+	.string "Argh!\n"
+	.string "J'suis grillé!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-	.string "Okay, I'll talk!\p"
-	.string "LT. SURGE said he hid door\n"
-	.string "switches inside something.$"
+	.string "OK, je parle!\p"
+	.string "Le MAJOR BOB a caché des boutons\n"
+	.string "pour ouvrir les portes…\l"
+	.string "… Quelque part!$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-	.string "This is no place for kids!\n"
-	.string "Not even if you're good!$"
+	.string "C'est pas un endroit pour les\n"
+	.string "gamins, ici!$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
-	.string "Wow!\n"
-	.string "Surprised me!$"
+	.string "Argh!\n"
+	.string "Tu m'as eu par surprise!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-	.string "LT. SURGE installed the traps in\n"
-	.string "the GYM himself.\p"
-	.string "He set up double locks everywhere.\n"
-	.string "Let me give you a hint.\p"
-	.string "When you open the first lock, the\n"
-	.string "second lock is right next to it.$"
+	.string "C'est le MAJOR BOB lui-même\n"
+	.string "qui a installé les pièges de cette\p"
+	.string "ARENE. Il a mis des double verrous\n"
+	.string "partout. Voici un indice!\p"
+	.string "Appuie sur le premier bouton,\n"
+	.string "le deuxième est juste à côté!$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-	.string "Yo!\n"
-	.string "Champ in the making!\p"
-	.string "LT. SURGE has a nickname.\p"
-	.string "People refer to him as the\n"
-	.string "Lightning American!\p"
-	.string "He's an expert on electric\n"
-	.string "POKéMON.\p"
-	.string "BIRD/WATER-type POKéMON match\n"
-	.string "poorly against the ELECTRIC type.\p"
-	.string "Beware of paralysis, too.\p"
-	.string "LT. SURGE is very cautious.\p"
-	.string "He's locked himself in, so it won't\n"
-	.string "be easy getting to him.$"
+	.string "Salut,\n"
+	.string "CHAMPION en herbe!\p"
+	.string "Le MAJOR BOB a un surnom. On\n"
+	.string "l'appelle… L'Américain Survolté!\p"
+	.string "Il est expert en POKéMON\n"
+	.string "ELECTRIK!\p"
+	.string "C'est pas bon pour les POKéMON\n"
+	.string "VOL et EAU! \p"
+	.string "Fais aussi attention à la\n"
+	.string "paralysie.\p"
+	.string "Le MAJOR BOB est très prudent!\p"
+	.string "Ça sera pas facile du tout\n"
+	.string "d'arriver jusqu'à lui!$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-	.string "Whew!\n"
-	.string "That match was electric!$"
+	.string "Wouh!\n"
+	.string "Ce match était survolté!$"
 
 VermilionCity_Gym_Text_GymStatue::
-	.string "VERMILION POKéMON GYM\n"
-	.string "LEADER: LT. SURGE\p"
-	.string "WINNING TRAINERS:\n"
+	.string "ARENE POKéMON de CARMIN SUR MER\n"
+	.string "CHAMPION: MAJOR BOB\p"
+	.string "VAINQUEURS:\n"
 	.string "{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-	.string "VERMILION POKéMON GYM\n"
-	.string "LEADER: LT. SURGE\p"
-	.string "WINNING TRAINERS:\n"
+	.string "ARENE POKéMON de CARMIN SUR MER\n"
+	.string "CHAMPION: MAJOR BOB\p"
+	.string "VAINQUEURS:\n"
 	.string "{RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-	.string "Nope!\n"
-	.string "There's only trash here.$"
+	.string "Non!\n"
+	.string "Il y a juste une poubelle ici.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-	.string "Hey! There's a switch under the\n"
-	.string "trash! Turn it on!\p"
-	.string "The first electric lock opened!$"
+	.string "Oh! Un bouton sous la poubelle!\n"
+	.string "Dingue!\p"
+	.string "Le premier verrou est levé!$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-	.string "The second electric lock opened!\n"
-	.string "The motorized door opened!$"
+	.string "Le deuxième verrou est levé!\n"
+	.string "La porte s'ouvre!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-	.string "Nope!\n"
-	.string "There's only trash here.\p"
-	.string "Hey!\n"
-	.string "The electric locks were reset!$"
+	.string "Non!\n"
+	.string "Il y a juste une poubelle ici.\p"
+	.string "Oups… Les verrous sont en place!$"
 

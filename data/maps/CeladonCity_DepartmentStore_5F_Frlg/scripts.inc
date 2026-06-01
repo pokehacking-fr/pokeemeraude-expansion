@@ -59,25 +59,22 @@ CeladonCity_DepartmentStore_5F_Vitamins::
 	end
 
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
-	.string "POKéMON stat enhancers can be\n"
-	.string "bought only here.\p"
-	.string "HP UP increases the base HP of a\n"
+	.string "Les accélérateurs de POKéMON sont\n"
+	.string "en vente ici.\p"
+	.string "PV PLUS augmente les PV\n"
+	.string "d'un POKéMON.\p"
+	.string "Le CALCIUM augmente les capacités\n"
+	.string "SPECIALES.\p"
+	.string "Le ZINC booste la DEF. SPE. d'un\n"
 	.string "POKéMON.\p"
-	.string "CALCIUM raises the base SP. ATK\n"
-	.string "stat of one POKéMON.\p"
-	.string "ZINC boosts the base SP. DEF stat\n"
-	.string "of one POKéMON.\p"
-	.string "CARBOS enhances the base SPEED\n"
-	.string "stat.$"
+	.string "Le CARBONE augmente la VITESSE.$"
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
-	.string "I'm here for POKéMON stat\n"
-	.string "enhancers.\p"
-	.string "PROTEIN increases the base ATTACK\n"
-	.string "power.\p"
-	.string "IRON increases the base DEFENSE\n"
-	.string "stat.$"
+	.string "J'veux acheter un accélérateur de\n"
+	.string "POKéMON!\p"
+	.string "Une PROTEINE augmentera l'ATTAQUE.\p"
+	.string "Le FER augmente la DEFENSE.$"
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
-	.string "5F: DRUGSTORE$"
+	.string "4ème: MEDICAMENTS$"
 

@@ -134,86 +134,85 @@ MtMoon_B2F_EventScript_Grunt4::
 	end
 
 MtMoon_B2F_Text_MiguelIntro::
-	.string "Hey, stop!\p"
-	.string "I found these fossils!\n"
-	.string "They're both mine!$"
+	.string "Hep! Toi là!\p"
+	.string "Ces fossiles sont à moi!\n"
+	.string "Pas touche!$"
 
 MtMoon_B2F_Text_MiguelDefeat::
-	.string "Okay!\n"
-	.string "I'll share!$"
+	.string "Bon, OK!\n"
+	.string "On partage!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-	.string "We'll each take a fossil!\n"
-	.string "No being greedy!$"
+	.string "Chacun le sien!\n"
+	.string "Comme ça, pas de jaloux!$"
 
 MtMoon_B2F_Text_ThenThisFossilIsMine::
-	.string "All right.\n"
-	.string "Then this fossil is mine!$"
+	.string "OK, je prends celui-ci!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-	.string "Far away, on CINNABAR ISLAND,\n"
-	.string "there's a POKéMON LAB.\p"
-	.string "They do research on regenerating\n"
-	.string "fossils.$"
+	.string "Loin d'ici, sur CRAMOIS'ILE, se\n"
+	.string "trouve un LABO POKéMON.\p"
+	.string "On essaye d'y régénérer des\n"
+	.string "fossiles de POKéMON.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
-	.string "We, TEAM ROCKET, shall find the\n"
-	.string "fossils!\p"
-	.string "Reviving POKéMON from them will\n"
-	.string "earn us huge riches!$"
+	.string "La TEAM ROCKET trouvera les \n"
+	.string "fossiles et fera fortune en les \l"
+	.string "vendant!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
-	.string "Urgh!\n"
-	.string "Now I'm mad!$"
+	.string "Grrr!\n"
+	.string "J'suis vert!$"
 
 MtMoon_B2F_Text_Grunt1PostBattle::
-	.string "You made me mad!\n"
-	.string "TEAM ROCKET will blacklist you!$"
+	.string "A cause de toi, j'suis vert!\n"
+	.string "La TEAM ROCKET me vengera!$"
 
 MtMoon_B2F_Text_Grunt2Intro::
-	.string "We, TEAM ROCKET, are POKéMON\n"
-	.string "gangsters!\l"
-	.string "We strike fear with our strength!$"
+	.string "La TEAM ROCKET?\n"
+	.string "C'est nous!\l"
+	.string "Les voleurs de POKéMON!$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
-	.string "I blew it!$"
+	.string "NOOOONNN!\n"
+	.string "J'ai perdu!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-	.string "Darn it all!\n"
-	.string "My associates won't stand for this!$"
+	.string "Hein?\n"
+	.string "Mes compagnons vont me venger!$"
 
 MtMoon_B2F_Text_Grunt3Intro::
-	.string "We're pulling a big job here!\n"
-	.string "Get lost, kid!$"
+	.string "Ça bosse dur ici!\n"
+	.string "Alors du balai!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-	.string "So, you are good…$"
+	.string "OK, j'ai perdu…$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
-	.string "If you find a fossil, give it to me\n"
-	.string "and scram!$"
+	.string "Si tu trouves un fossile, tu me le\n"
+	.string "donnes et tu décampes, pigé?$"
 
 MtMoon_B2F_Text_Grunt4Intro::
-	.string "Little kids shouldn't be messing\n"
-	.string "around with grown-ups!\p"
-	.string "It could be bad news!$"
+	.string "Les p'tits gamins ne s'occupent pas\n"
+	.string "des affaires des grands!$"
 
 MtMoon_B2F_Text_Grunt4Defeat::
-	.string "I'm steamed!$"
+	.string "…\n"
+	.string "J'suis épuisé!$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-	.string "POKéMON lived here long before\n"
-	.string "people came.$"
+	.string "Les POKéMON existaient bien avant\n"
+	.string "les Hommes…$"
 
 MtMoon_B2F_Text_YouWantDomeFossil::
-	.string "Do you want the DOME FOSSIL?$"
+	.string "Tu veux le fossile DOME?$"
 
 MtMoon_B2F_Text_YouWantHelixFossil::
-	.string "Do you want the HELIX FOSSIL?$"
+	.string "Tu veux le fossile NAUTILE?$"
 
 MtMoon_B2F_Text_ObtainedHelixFossil::
-	.string "Obtained the HELIX FOSSIL!$"
+	.string "Fossile NAUTILE obtenu!$"
 
 MtMoon_B2F_Text_ObtainedDomeFossil::
-	.string "Obtained the DOME FOSSIL!$"
+	.string "Fossile DOME obtenu!$"
 

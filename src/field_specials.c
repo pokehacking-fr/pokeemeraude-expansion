@@ -172,20 +172,20 @@ static u16 SampleResortGorgeousReward(void);
 static void Task_ShakeScreen(u8 taskId);
 static void Task_EndScreenShake(u8 taskId);
 
-static const u8 sText_BigGuy[] = _("Big guy");
-static const u8 sText_BigGirl[] = _("Big girl");
-static const u8 sText_Son[] = _("son");
-static const u8 sText_Daughter[] = _("daughter");
-static const u8 sText_99TimesPlus[] = _("99 times +");
-static const u8 sText_1MinutePlus[] = _("1 minute +");
-static const u8 sText_SpaceSeconds[] = _(" seconds");
-static const u8 sText_SpaceTimes[] = _(" time(s)");
+static const u8 sText_BigGuy[] = _("");
+static const u8 sText_BigGirl[] = _("");
+static const u8 sText_Son[] = _("fils");
+static const u8 sText_Daughter[] = _("fille");
+static const u8 sText_99TimesPlus[] = _("plus de 99");
+static const u8 sText_1MinutePlus[] = _("plus d'1 min");
+static const u8 sText_SpaceSeconds[] = _(" secondes");
+static const u8 sText_SpaceTimes[] = _("");
 
-static const u8 sText_Wallace[] = _("WALLACE");
-static const u8 sText_Steven[] = _("STEVEN");
-static const u8 sText_Brawly[] = _("BRAWLY");
-static const u8 sText_Winona[] = _("WINONA");
-static const u8 sText_Phoebe[] = _("PHOEBE");
+static const u8 sText_Wallace[] = _("MARC");
+static const u8 sText_Steven[] = _("PIERRE");
+static const u8 sText_Brawly[] = _("BASTIEN");
+static const u8 sText_Winona[] = _("ALIZEE");
+static const u8 sText_Phoebe[] = _("SPECTRA");
 static const u8 sText_Glacia[] = _("GLACIA");
 
 void Special_ShowDiploma(void)
@@ -2303,6 +2303,9 @@ void ShowFrontierManiacMessage(void)
 }
 
 // gSpecialVar_0x8005 and 0x8006 here are used by MoveElevator
+/**
+ * French Difference
+*/
 void BufferBattleTowerElevatorFloors(void)
 {
     static const u16 sBattleTowerStreakThresholds[] = {
@@ -2312,6 +2315,13 @@ void BufferBattleTowerElevatorFloors(void)
     u8 i;
     u16 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
     enum FrontierLevelMode lvlMode = gSaveBlock2Ptr->frontier.lvlMode;
+
+    if (battleMode == FRONTIER_MODE_LINK_MULTIS) // This check is absent in the English version.
+    {
+        gSpecialVar_0x8005 = 4;
+        gSpecialVar_0x8006 = 5;
+        return;
+    }
 
     if (battleMode == FRONTIER_MODE_MULTIS && !FlagGet(FLAG_CHOSEN_MULTI_BATTLE_NPC_PARTNER))
     {
@@ -2517,13 +2527,13 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     },
     [SCROLL_MULTI_GLASS_WORKSHOP_VENDOR] =
     {
-        COMPOUND_STRING("BLUE FLUTE"),
-        COMPOUND_STRING("YELLOW FLUTE"),
-        COMPOUND_STRING("RED FLUTE"),
-        COMPOUND_STRING("WHITE FLUTE"),
-        COMPOUND_STRING("BLACK FLUTE"),
-        COMPOUND_STRING("PRETTY CHAIR"),
-        COMPOUND_STRING("PRETTY DESK"),
+        COMPOUND_STRING("FLUTE BLEUE"),
+        COMPOUND_STRING("FLUTE JAUNE"),
+        COMPOUND_STRING("FLUTE ROUGE"),
+        COMPOUND_STRING("FLUTEBLANCHE"),
+        COMPOUND_STRING("FLUTE NOIRE"),
+        COMPOUND_STRING("JOLIE CHAISE"),
+        COMPOUND_STRING("JOLI BUREAU"),
         gText_Exit
     },
     [SCROLL_MULTI_POKEMON_FAN_CLUB_RATER] =
@@ -2543,63 +2553,63 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_1] =
     {
-        COMPOUND_STRING("KISS POSTER{CLEAR_TO 0x5E}16BP"),
-        COMPOUND_STRING("KISS CUSHION{CLEAR_TO 0x5E}32BP"),
-        COMPOUND_STRING("SMOOCHUM DOLL{CLEAR_TO 0x5E}32BP"),
-        COMPOUND_STRING("TOGEPI DOLL{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("MEOWTH DOLL{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("CLEFAIRY DOLL{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("DITTO DOLL{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("CYNDAQUIL DOLL{CLEAR_TO 0x5E}80BP"),
-        COMPOUND_STRING("CHIKORITA DOLL{CLEAR_TO 0x5E}80BP"),
-        COMPOUND_STRING("TOTODILE DOLL{CLEAR_TO 0x5E}80BP"),
+        COMPOUND_STRING("POSTER BAISER{CLEAR_TO 94}16{Pco}"),
+        COMPOUND_STRING("COUSSIN BAISER{CLEAR_TO 94}32{Pco}"),
+        COMPOUND_STRING("POUPEE LIPPOUTI{CLEAR_TO 94}32{Pco}"),
+        COMPOUND_STRING("POUPEE TOGEPI{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("POUPEE MIAOUSS{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("POUPEE MELOFEE{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("POUP. METAMORPH{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("POUP.HERICENDRE{CLEAR_TO 94}80{Pco}"),
+        COMPOUND_STRING("POUP. GERMIGNON{CLEAR_TO 94}80{Pco}"),
+        COMPOUND_STRING("POUPEE KAIMINUS{CLEAR_TO 94}80{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_2] =
     {
-        COMPOUND_STRING("LAPRAS DOLL{CLEAR_TO 0x58}128BP"),
-        COMPOUND_STRING("SNORLAX DOLL{CLEAR_TO 0x58}128BP"),
-        COMPOUND_STRING("VENUSAUR DOLL{CLEAR_TO 0x58}256BP"),
-        COMPOUND_STRING("CHARIZARD DOLL{CLEAR_TO 0x58}256BP"),
-        COMPOUND_STRING("BLASTOISE DOLL{CLEAR_TO 0x58}256BP"),
+        COMPOUND_STRING("POUPEE LOKHLASS{CLEAR_TO 96}128{Pco}"),
+        COMPOUND_STRING("POUPEE RONFLEX{CLEAR_TO 96}128{Pco}"),
+        COMPOUND_STRING("POUP.FLORIZARRE{CLEAR_TO 96}256{Pco}"),
+        COMPOUND_STRING("POUP. DRACAUFEU{CLEAR_TO 96}256{Pco}"),
+        COMPOUND_STRING("POUPEE TORTANK{CLEAR_TO 96}256{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_VITAMIN_VENDOR] =
     {
-        COMPOUND_STRING("PROTEIN{CLEAR_TO 0x64}1BP"),
-        COMPOUND_STRING("CALCIUM{CLEAR_TO 0x64}1BP"),
-        COMPOUND_STRING("IRON{CLEAR_TO 0x64}1BP"),
-        COMPOUND_STRING("ZINC{CLEAR_TO 0x64}1BP"),
-        COMPOUND_STRING("CARBOS{CLEAR_TO 0x64}1BP"),
-        COMPOUND_STRING("HP UP{CLEAR_TO 0x64}1BP"),
+        COMPOUND_STRING("PROTEINE{CLEAR_TO 100}1{Pco}"),
+        COMPOUND_STRING("CALCIUM{CLEAR_TO 100}1{Pco}"),
+        COMPOUND_STRING("FER{CLEAR_TO 100}1{Pco}"),
+        COMPOUND_STRING("ZINC{CLEAR_TO 100}1{Pco}"),
+        COMPOUND_STRING("CARBONE{CLEAR_TO 100}1{Pco}"),
+        COMPOUND_STRING("PV PLUS{CLEAR_TO 100}1{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_HOLD_ITEM_VENDOR] =
     {
-        COMPOUND_STRING("LEFTOVERS{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("WHITE HERB{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("QUICK CLAW{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("MENTAL HERB{CLEAR_TO 0x5E}48BP"),
-        COMPOUND_STRING("BRIGHTPOWDER{CLEAR_TO 0x5E}64BP"),
-        COMPOUND_STRING("CHOICE BAND{CLEAR_TO 0x5E}64BP"),
-        COMPOUND_STRING("KING'S ROCK{CLEAR_TO 0x5E}64BP"),
-        COMPOUND_STRING("FOCUS BAND{CLEAR_TO 0x5E}64BP"),
-        COMPOUND_STRING("SCOPE LENS{CLEAR_TO 0x5E}64BP"),
+        COMPOUND_STRING("RESTES{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("HERBEBLANCHE{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("VIVE GRIFFE{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("HERBE MENTAL{CLEAR_TO 94}48{Pco}"),
+        COMPOUND_STRING("POUDRECLAIRE{CLEAR_TO 94}64{Pco}"),
+        COMPOUND_STRING("BAND. CHOIX{CLEAR_TO 94}64{Pco}"),
+        COMPOUND_STRING("ROCHE ROYALE{CLEAR_TO 94}64{Pco}"),
+        COMPOUND_STRING("BANDEAU{CLEAR_TO 94}64{Pco}"),
+        COMPOUND_STRING("LENTILSCOPE{CLEAR_TO 94}64{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_BERRY_POWDER_VENDOR] =
     {
-        COMPOUND_STRING("ENERGYPOWDER{CLEAR_TO 114}{FONT_SMALL}50"),
-        COMPOUND_STRING("ENERGY ROOT{CLEAR_TO 114}{FONT_SMALL}80"),
-        COMPOUND_STRING("HEAL POWDER{CLEAR_TO 114}{FONT_SMALL}50"),
-        COMPOUND_STRING("REVIVAL HERB{CLEAR_TO 108}{FONT_SMALL}300"),
-        COMPOUND_STRING("PROTEIN{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("IRON{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("CARBOS{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("CALCIUM{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("ZINC{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("HP UP{CLEAR_TO 99}{FONT_SMALL}1,000"),
-        COMPOUND_STRING("PP UP{CLEAR_TO 99}{FONT_SMALL}3,000"),
+        COMPOUND_STRING("POUDRENERGIE{CLEAR_TO 114}{FONT}À50"),
+        COMPOUND_STRING("RACINENERGIE{CLEAR_TO 114}{FONT}À80"),
+        COMPOUND_STRING("POUDRE SOIN{CLEAR_TO 114}{FONT}À50"),
+        COMPOUND_STRING("HERBE RAPPEL{CLEAR_TO 108}{FONT}À300"),
+        COMPOUND_STRING("PROTEINE{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("FER{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("CARBONE{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("CALCIUM{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("ZINC{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("PV PLUS{CLEAR_TO 102}{FONT}À1000"),
+        COMPOUND_STRING("PP PLUS{CLEAR_TO 102}{FONT}À3000"),
         gText_Exit
     },
     [SCROLL_MULTI_BF_RECEPTIONIST] =
@@ -2617,30 +2627,30 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     },
     [SCROLL_MULTI_BF_MOVE_TUTOR_1] =
     {
-        COMPOUND_STRING("SOFTBOILED{CLEAR_TO 0x4E}16BP"),
-        COMPOUND_STRING("SEISMIC TOSS{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("DREAM EATER{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("MEGA PUNCH{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("MEGA KICK{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("BODY SLAM{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("ROCK SLIDE{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("COUNTER{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("THUNDER WAVE{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("SWORDS DANCE{CLEAR_TO 0x4E}48BP"),
+        COMPOUND_STRING("E-COQUE{CLEAR_TO 78}16{Pco}"),
+        COMPOUND_STRING("FRAPPE ATLAS{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("DEVOREVE{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("ULTIMAPOING{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("ULTIMAWASHI{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("PLAQUAGE{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("EBOULEMENT{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("RIPOSTE{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("CAGE-ECLAIR{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("DANSE-LAMES{CLEAR_TO 78}48{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_BF_MOVE_TUTOR_2] =
     {
-        COMPOUND_STRING("DEFENSE CURL{CLEAR_TO 0x4E}16BP"),
-        COMPOUND_STRING("SNORE{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("MUD-SLAP{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("SWIFT{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("ICY WIND{CLEAR_TO 0x4E}24BP"),
-        COMPOUND_STRING("ENDURE{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("PSYCH UP{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("ICE PUNCH{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("THUNDERPUNCH{CLEAR_TO 0x4E}48BP"),
-        COMPOUND_STRING("FIRE PUNCH{CLEAR_TO 0x4E}48BP"),
+        COMPOUND_STRING("BOUL'ARMURE{CLEAR_TO 78}16{Pco}"),
+        COMPOUND_STRING("RONFLEMENT{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("COUD'BOUE{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("METEORES{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("VENT GLACE{CLEAR_TO 78}24{Pco}"),
+        COMPOUND_STRING("TENACITE{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("BOOST{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("POINGLACE{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("POING-ECLAIR{CLEAR_TO 78}48{Pco}"),
+        COMPOUND_STRING("POING DE FEU{CLEAR_TO 78}48{Pco}"),
         gText_Exit
     },
     [SCROLL_MULTI_SS_TIDAL_DESTINATION] =
@@ -5328,7 +5338,7 @@ static void Task_ElevatorShake(u8 taskId)
     }
 }
 
-static const u8 sText_NowOn[] = _("Now on:");
+static const u8 sText_NowOn[] = _("Niveau:");
 
 void DrawElevatorCurrentFloorWindow(void)
 {

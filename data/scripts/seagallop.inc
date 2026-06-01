@@ -195,5 +195,7 @@ EventScript_SailToSevenIsland::
 	end
 
 Text_AllAboardSeagallopNum::
-	.string "All right!\n"
-	.string "All aboard SEAGALLOP HI-SPEED {STR_VAR_1}!$"
+	.string "Très bien!\n"
+	.string "Tout le monde à bord!\p"
+	.string "La FLECHE DES MERS {STR_VAR_1}\n"
+	.string "va partir!$"

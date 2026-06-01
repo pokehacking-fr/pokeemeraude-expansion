@@ -200,6 +200,7 @@ void RestoreTextColors(union TextColor color);
 void DecompressGlyphTile(const void *src_, void *dest_);
 u32 CopyGlyphToVRAM(struct TextPrinter *textPrinter);
 void ClearTextSpan(struct TextPrinter *textPrinter, u32 width);
+u8 GetMenuCursorDimensionByFont(u8 fontId, u8 whichDimension);
 
 void TextPrinterInitDownArrowCounters(struct TextPrinter *textPrinter);
 void TextPrinterDrawDownArrow(struct TextPrinter *textPrinter);

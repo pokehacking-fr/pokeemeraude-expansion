@@ -18,20 +18,20 @@ CeladonCity_Hotel_EventScript_BeautyBrother::
 	end
 
 CeladonCity_Hotel_Text_ThisHotelIsForPeople::
-	.string "POKéMON?\n"
-	.string "No, this is a hotel for people.\p"
-	.string "We're full up, unfortunately.$"
+	.string "Des POKéMON quoi?\n"
+	.string "C'est un hôtel ici…\p"
+	.string "Et c'est complet.$"
 
 CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
-	.string "I'm on vacation with my brother and\n"
-	.string "boyfriend.\p"
-	.string "CELADON is such a pretty city!$"
+	.string "Je suis en vacances avec mon\n"
+	.string "frère et mon petit ami.\p"
+	.string "CELADOPOLE est si belle!$"
 
 CeladonCity_Hotel_Text_WhyDidSheBringBrother::
-	.string "Why?\n"
-	.string "Why did she bring her brother?$"
+	.string "Pourquoi?\n"
+	.string "Mais pourquoi y'a son frère?$"
 
 CeladonCity_Hotel_Text_SisBroughtMeOnVacation::
-	.string "Yippee! I'm on vacation!\n"
-	.string "My sis brought me along! Awesome!$"
+	.string "Je suis en vacances avec ma\n"
+	.string "sœur… Ça craint à mort!$"
 

@@ -33,31 +33,32 @@ FourIsland_LoreleisHouse_EventScript_Doll::
 	end
 
 FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland::
-	.string "LORELEI: There's something weighing\n"
-	.string "heavily on my mind.\p"
-	.string "If anything were to happen on\n"
-	.string "the island where I was born…\p"
-	.string "I wouldn't know about it if I were\n"
-	.string "in the POKéMON LEAGUE.\p"
-	.string "I wonder if that would make me\n"
-	.string "irresponsible to my home…$"
+	.string "OLGA: Je n'arrête pas de penzer\n"
+	.string "à quelque choze.\p"
+	.string "Z'il devait arriver malheur zur mon\n"
+	.string "île natale pendant que je zuis\p"
+	.string "à la LIGUE POKéMON…\p"
+	.string "Je n'aurais aucun moyen de le\n"
+	.string "zavoir…\p"
+	.string "Est-ce que za fait de moi\n"
+	.string "quelqu'un d'irresponzable?$"
 
 FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile::
-	.string "LORELEI: So, you managed to solve\n"
-	.string "all the problems here?\p"
-	.string "That's wonderful.\p"
-	.string "That means there isn't any reason\n"
-	.string "for me to be here all the time.\p"
-	.string "Thank you…\p"
-	.string "I'll return to the POKéMON LEAGUE\n"
-	.string "in a short while.$"
+	.string "OLGA: Zo, alors tu as réuzzi à\n"
+	.string "régler les problèmes?\p"
+	.string "Z'est fantaztique!\p"
+	.string "Za veut dire que je peux repartir\n"
+	.string "l'ezprit tranquille.\p"
+	.string "Merci…\p"
+	.string "Je vais bientôt repartir pour la\n"
+	.string "LIGUE POKéMON.$"
 
 FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
-	.string "I don't know what will happen in\n"
-	.string "the future, but…\p"
-	.string "I will do what I can here and now.\n"
-	.string "That's all I can do.$"
+	.string "Je ne zais pas ze qui peut se\n"
+	.string "pazzer dans le futur, mais…\p"
+	.string "Tant que je zerai là, je\n"
+	.string "protégerai zette île.$"
 
 FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore::
-	.string "Stuffed POKéMON dolls galore!$"
+	.string "Il y a plein de poupées POKéMON.$"
 

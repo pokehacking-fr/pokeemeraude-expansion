@@ -30,14 +30,15 @@ SixIsland_Mart_EventScript_Picnicker::
 	end
 
 SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
-	.string "Play with POKéMON lots and live\n"
-	.string "a long life!\p"
-	.string "Take AGATHA, for example.\p"
-	.string "She set a record for being the\n"
-	.string "oldest-ever ELITE FOUR member.\p"
-	.string "She spurs me to do bigger things.$"
+	.string "Joue beaucoup avec tes POKéMON\n"
+	.string "et profite de la vie.\p"
+	.string "Prends AGATHA par exemple.\n"
+	.string "C'est la personne la plus\p"
+	.string "âgée qui ait jamais fait partie\n"
+	.string "du CONSEIL 4.\p"
+	.string "Elle me pousse à me surpasser.$"
 
 SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter::
-	.string "I should buy some MAIL and write\n"
-	.string "him a letter…$"
+	.string "Je devrais acheter du papier et\n"
+	.string "lui envoyer une LETTRE.$"
 

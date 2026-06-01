@@ -128,6 +128,6 @@ Route23_EventScript_VictoryRoadGateSign::
 	end
 
 Route23_Text_VictoryRoadGateSign::
-	.string "VICTORY ROAD GATE -\n"
-	.string "POKéMON LEAGUE$"
+	.string "ROUTE VICTOIRE\n"
+	.string "- LIGUE POKéMON$"
 

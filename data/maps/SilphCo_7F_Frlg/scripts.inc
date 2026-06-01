@@ -233,136 +233,139 @@ SilphCo_7F_EventScript_Grunt3::
 	end
 
 SilphCo_7F_Text_HaveMonForSavingUs::
-	.string "Oh! Hi! You're not a ROCKET!\n"
-	.string "You came to save us?\l"
-	.string "Why, thank you!\p"
-	.string "I want you to have this POKéMON\n"
-	.string "for saving us.$"
+	.string "Oh! Tu n'es pas un ROCKET! Es-tu\n"
+	.string "là pour nous sauver? Merci!\p"
+	.string "Prends donc ce joli POKéMON en\n"
+	.string "cadeau.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-	.string "{PLAYER} obtained a LAPRAS from\n"
-	.string "the SILPH employee!$"
+	.string "{PLAYER} reçoit un LOKHLASS.$"
 
 SilphCo_7F_Text_ExplainLapras::
-	.string "It's a LAPRAS.\n"
-	.string "It's a very intelligent POKéMON.\p"
-	.string "We kept it in our lab, but it will\n"
-	.string "be much better off with you.\p"
-	.string "I think you will be a good TRAINER\n"
-	.string "for LAPRAS!\p"
-	.string "It's a good swimmer.\n"
-	.string "It'll give you a lift across water!$"
+	.string "C'est un LOKHLASS.\n"
+	.string "Il est très intelligent.\p"
+	.string "Nous le gardions dans le labo,\n"
+	.string "mais il sera mieux avec toi!\p"
+	.string "Tu seras un bon DRESSEUR\n"
+	.string "pour LOKHLASS!\p"
+	.string "C'est un bon nageur, il pourra même\n"
+	.string "te transporter sur l'eau!$"
 
 SilphCo_7F_Text_RocketBossWentToBoardroom::
-	.string "TEAM ROCKET's BOSS went to the\n"
-	.string "boardroom!\p"
-	.string "Is our PRESIDENT okay?\n"
-	.string "I'm worried.$"
+	.string "Le chef de la TEAM ROCKET est\n"
+	.string "dans la salle du conseil…\p"
+	.string "Le PDG va bien?\n"
+	.string "Je suis très inquiet.$"
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
-	.string "TEAM ROCKET was after the MASTER\n"
-	.string "BALL, which catches any POKéMON.$"
+	.string "La TEAM ROCKET voulait s'emparer\n"
+	.string "de la MASTER BALL pouvant\l"
+	.string "attraper n'importe quel POKéMON!$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
-	.string "We canceled the MASTER BALL\n"
-	.string "project because of TEAM ROCKET.$"
+	.string "Le projet MASTER BALL fut annulé\n"
+	.string "à cause de la TEAM ROCKET.$"
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
-	.string "It would be bad if TEAM ROCKET\n"
-	.string "took over SILPH or our POKéMON.$"
+	.string "Grâce au ciel, la TEAM ROCKET\n"
+	.string "n'a pas pu investir la SYLPHE ou\l"
+	.string "voler nos POKéMON!$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
-	.string "Wow!\p"
-	.string "You chased off TEAM ROCKET all by\n"
-	.string "yourself?$"
+	.string "Woah!\p"
+	.string "Tu as vraiment battu la\n"
+	.string "TEAM ROCKET?$"
 
 SilphCo_7F_Text_ReallyDangerousHere::
-	.string "You!\n"
-	.string "It's really dangerous here!\p"
-	.string "You came to save me?\n"
-	.string "You can't!$"
+	.string "Hé toi!\n"
+	.string "C'est dangereux par ici!\p"
+	.string "Tu es là pour me sauver?\n"
+	.string "Impossible!$"
 
 SilphCo_7F_Text_ThankYouSoMuch::
-	.string "Thank you so much!$"
+	.string "Enfin libre!\n"
+	.string "Merci merci!$"
 
 SilphCo_7F_Text_Grunt3Intro::
-	.string "Uh-oh!\n"
-	.string "I smell a little mouse!$"
+	.string "Heu?\n"
+	.string "Alerte! Alerte!$"
 
 SilphCo_7F_Text_Grunt3Defeat::
-	.string "Lights out!$"
+	.string "Oups.\n"
+	.string "Perdu! Perdu!$"
 
 SilphCo_7F_Text_Grunt3PostBattle::
-	.string "You won't find my BOSS by just\n"
-	.string "scurrying around!$"
+	.string "Tu ne pourras pas trouver mon\n"
+	.string "chef juste en te baladant!$"
 
 SilphCo_7F_Text_JoshuaIntro::
-	.string "Heheh!\p"
-	.string "You mistook me for a SILPH worker?$"
+	.string "Nyah ha ha!\p"
+	.string "Tu me prends pour un employé de\n"
+	.string "la SYLPHE?$"
 
 SilphCo_7F_Text_JoshuaDefeat::
-	.string "I'm done!$"
+	.string "…\n"
+	.string "Fichu!$"
 
 SilphCo_7F_Text_JoshuaPostBattle::
-	.string "Despite your age, you are a\n"
-	.string "skilled TRAINER!$"
+	.string "Bien que tu sois jeune, tu te\n"
+	.string "débrouilles pas trop mal!$"
 
 SilphCo_7F_Text_Grunt1Intro::
-	.string "I am one of the four ROCKET\n"
-	.string "BROTHERS!$"
+	.string "Je suis l'un des 4 FRERES ROCKET!$"
 
 SilphCo_7F_Text_Grunt1Defeat::
-	.string "Aack!\n"
-	.string "Brothers, I lost!$"
+	.string "Yaaah!\n"
+	.string "Frères! A l'aide!$"
 
 SilphCo_7F_Text_Grunt1PostBattle::
-	.string "Doesn't matter.\n"
-	.string "My brothers will repay the favor!$"
+	.string "Pas grave. Mes frères se\n"
+	.string "chargeront de toi, mon petit!$"
 
 SilphCo_7F_Text_Grunt2Intro::
-	.string "A child intruder?\n"
-	.string "That must be you!$"
+	.string "Un jeune intrus?\n"
+	.string "Mais! C'est toi!$"
 
 SilphCo_7F_Text_Grunt2Defeat::
-	.string "Fine!\n"
-	.string "I lost!$"
+	.string "OK.\n"
+	.string "J'ai perdu.$"
 
 SilphCo_7F_Text_Grunt2PostBattle::
-	.string "Go on home before my BOSS gets\n"
-	.string "ticked off!$"
+	.string "Rentre chez toi!\n"
+	.string "Mon chef est sans pitié!$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
-	.string "{RIVAL}: What kept you, {PLAYER}?$"
+	.string "{RIVAL}: Qu'est-ce qui t'a retenu\n"
+	.string "{PLAYER}?$"
 
 SilphCo_7F_Text_RivalIntro::
-	.string "{RIVAL}: Hahaha! I thought you'd\n"
-	.string "turn up if I waited here!\p"
-	.string "I guess TEAM ROCKET slowed you\n"
-	.string "down! Not that I care!\p"
-	.string "I saw you in SAFFRON, so I decided\n"
-	.string "to see if you got better!$"
+	.string "{RIVAL}: Hahaha! J'étais sûr que\n"
+	.string "tu passerais par là!\p"
+	.string "La TEAM ROCKET te pose des\n"
+	.string "problèmes? Quel dommage!\p"
+	.string "Je t'ai vu à SAFRANIA.\n"
+	.string "T'as fait des progrès?$"
 
 SilphCo_7F_Text_RivalDefeat::
-	.string "Oh, man!\n"
-	.string "So, you are ready for BOSS\l"
-	.string "ROCKET!$"
+	.string "Oh non!\n"
+	.string "Tu vas affronter le chef de\l"
+	.string "la TEAM ROCKET!$"
 
 SilphCo_7F_Text_RivalPostBattle::
-	.string "Well, {PLAYER}!\n"
-	.string "I'm moving on up and ahead!\p"
-	.string "By checking my POKéDEX, I'm\n"
-	.string "starting to see what's strong and\l"
-	.string "how they evolve!\p"
-	.string "Am I a genius or what?\p"
-	.string "I'm going to the POKéMON LEAGUE to\n"
-	.string "boot out the ELITE FOUR.\p"
-	.string "I'll become the world's most\n"
-	.string "powerful TRAINER!\p"
-	.string "{PLAYER}, well, good luck to you!\n"
-	.string "Don't sweat it!\l"
-	.string "Smell ya!$"
+	.string "OK, {PLAYER}!\p"
+	.string "Je décampe!\p"
+	.string "Grâce à mon joli POKéDEX, je\n"
+	.string "découvre qui est fort et quelles\l"
+	.string "sont toutes les évolutions!\p"
+	.string "Je vais à la LIGUE POKéMON\n"
+	.string "pour détrôner le CONSEIL 4!\p"
+	.string "Je serai bientôt le DRESSEUR le\n"
+	.string "plus puissant du monde!\p"
+	.string "Bonne chance, {PLAYER}!\p"
+	.string "Tu en auras besoin.\n"
+	.string "Tchao!$"
 
 SilphCo_7F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "7F$"
+	.string "SYLPHE SARL.\n"
+	.string "6ème étage.$"
 

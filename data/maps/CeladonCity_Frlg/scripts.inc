@@ -103,116 +103,117 @@ CeladonCity_EventScript_GameCornerSign::
 	end
 
 CeladonCity_Text_GotMyKoffingInCinnabar::
-	.string "I got my KOFFING in CINNABAR.\p"
-	.string "It's usually nice, but it breathes\n"
-	.string "poison when it's angry.$"
+	.string "J'ai eu mon SMOGO à CRAMOIS'ILE!\p"
+	.string "Il est gentil mais il crache du\n"
+	.string "poison pour un rien!$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-	.string "Heheh! This GYM is great!\n"
-	.string "It's full of women!$"
+	.string "Héhé! Cette ARENE est terrible!\n"
+	.string "Y'a plein de jolies filles!$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-	.string "CELADON takes pride in its efforts\n"
-	.string "to keep the city beautiful.\p"
-	.string "That's why the new GAME CORNER is\n"
-	.string "bad for our city's image.$"
+	.string "Nous faisons tout pour que la\n"
+	.string "sécurité règne à CELADOPOLE.\p"
+	.string "C'est pour ça que ce CASINO n'est\n"
+	.string "pas bon pour notre image!$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-	.string "Moan…\n"
-	.string "I blew it all at the slots!\p"
-	.string "I knew I should have cashed in my\n"
-	.string "COINS for prizes!$"
+	.string "Pfff…\n"
+	.string "J'ai tout perdu au CASINO!\p"
+	.string "J'aurais dû acheter un prix avec\n"
+	.string "mes JETONS avant de tout dépenser!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-	.string "This is my trusted pal, POLIWRATH.\p"
-	.string "It evolved from a POLIWHIRL when\n"
-	.string "I used a WATER STONE.$"
+	.string "C'est mon copain: TARTARD!\p"
+	.string "Ce n'était qu'un TETARTE avant\n"
+	.string "d'utiliser une PIERRE EAU!$"
 
 CeladonCity_Text_Poliwrath::
-	.string "POLIWRATH: Ribi ribit!$"
+	.string "TARTARD: Tarta! Taaaar!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-	.string "What are you staring at?\n"
-	.string "Get lost, or I'll punch you.$"
+	.string "Kess tu mates?$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-	.string "Keep out of TEAM ROCKET's way!$"
+	.string "Laisse la TEAM tranquille!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-	.string "TRAINER TIPS\p"
-	.string "X ACCURACY boosts the accuracy of\n"
-	.string "techniques.\p"
-	.string "DIRE HIT jacks up the likelihood\n"
-	.string "of critical hits.\p"
-	.string "Get your items at the CELADON\n"
-	.string "DEPT. STORE!$"
+	.string "ASTUCE\p"
+	.string "PRECISION + augmente la précision\n"
+	.string "des attaques!\p"
+	.string "MUSCLE + augmente les chances\n"
+	.string "d'effectuer des coups critiques!\p"
+	.string "Les meilleurs objets sont en vente\n"
+	.string "au CENTRE COMMERCIAL de\l"
+	.string "CELADOPOLE!$"
 
 CeladonCity_Text_CitySign::
-	.string "CELADON CITY\n"
-	.string "The City of Rainbow Dreams$"
+	.string "CELADOPOLE\n"
+	.string "Ville aux rêves arc-en-ciel$"
 
 CeladonCity_Text_GymSign::
-	.string "CELADON CITY POKéMON GYM\n"
-	.string "LEADER: ERIKA\l"
-	.string "The Nature-Loving Princess!$"
+	.string "CELADOPOLE ARENE POKéMON\n"
+	.string "CHAMPION: ERIKA\l"
+	.string "Le combat par les plantes!$"
 
 CeladonCity_Text_MansionSign::
-	.string "CELADON MANSION$"
+	.string "MANOIR CELADON$"
 
 CeladonCity_Text_DeptStoreSign::
-	.string "Find what you need at the\n"
-	.string "CELADON DEPT. STORE!$"
+	.string "Au CENTRE COMMERCIAL de\n"
+	.string "CELADOPOLE on trouve de tout!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-	.string "TRAINER TIPS\p"
-	.string "GUARD SPEC. protects POKéMON\n"
-	.string "from status-reduction moves during\l"
-	.string "battle.\p"
-	.string "Get your items at the\n"
-	.string "CELADON DEPT. STORE!$"
+	.string "ASTUCE\p"
+	.string "DEFENSE SPEC protège les POKéMON\n"
+	.string "des changements de statut\l"
+	.string "pendant un combat.\p"
+	.string "Y'a tout c'qui faut au CENTRE\n"
+	.string "COMMERCIAL de CELADOPOLE!$"
 
 CeladonCity_Text_PrizeExchangeSign::
-	.string "COINS exchanged for prizes!\n"
-	.string "PRIZE EXCHANGE$"
+	.string "CHANGE des JETONS contre de\n"
+	.string "super prix!$"
 
 CeladonCity_Text_GameCornerSign::
-	.string "ROCKET GAME CORNER\n"
-	.string "The playground for grown-ups!$"
+	.string "CASINO ROCKET\n"
+	.string "Club de jeu pour adultes!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
-	.string "Aaaagh, ow…\n"
-	.string "I scalded my tongue!\p"
-	.string "This nice old lady in the MANSION\n"
-	.string "gave me some TEA.\p"
-	.string "But it was boiling hot!\n"
-	.string "Gotta cool it to drink it.$"
+	.string "Aaaah!\n"
+	.string "je me suis brûlé la langue!\p"
+	.string "La gentille dame de la PENSION\n"
+	.string "m'a donné du THE.\p"
+	.string "Mais c'était brûlant! J'aurais dû\n"
+	.string "souffler un peu dessus avant.$"
 
 Text_SoftboiledTeach::
-	.string "Hello, there!\p"
-	.string "I've seen you about, but I never\n"
-	.string "had a chance to chat.\p"
-	.string "It must be good luck that brought\n"
-	.string "us together finally.\p"
-	.string "I'd like to celebrate by teaching\n"
-	.string "you the move SOFTBOILED.$"
+	.string "Enfin! Depuis le temps que\n"
+	.string "je voulais te parler!\p"
+	.string "Ça doit être la chance qui nous\n"
+	.string "a enfin réunis.\p"
+	.string "Je voudrais fêter ça en\n"
+	.string "t'apprenant E-COQUE.$"
 
 Text_SoftboiledDeclined::
-	.string "I'll always be keeping an eye out\n"
-	.string "for you.\p"
-	.string "I hope we can chat again.$"
+	.string "Je serai toujours là si tu\n"
+	.string "as besoin.\p"
+	.string "J'espère qu'on se reverra\n"
+	.string "bientôt.$"
 
 Text_SoftboiledWhichMon::
-	.string "So, who's the POKéMON that gets\n"
-	.string "the chance to learn SOFTBOILED?$"
+	.string "Alors, quel POKéMON aura la\n"
+	.string "chance d'apprendre E-COQUE?$"
 
 Text_SoftboiledTaught::
-	.string "I wish you the best of luck!$"
+	.string "Je te souhaite bonne chance!$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
-	.string "Oh, what am I to do…\p"
-	.string "Someone stole our SILPH SCOPE.\p"
-	.string "The thief came running this way,\n"
-	.string "I'm sure of it.\p"
-	.string "But I lost sight of him!\n"
-	.string "Where'd he go?$"
+	.string "Aaaah! Qu'est-ce que je peux\n"
+	.string "faire?\p"
+	.string "Quelqu'un a volé le SCOPE SYLPHE.\p"
+	.string "Le voleur est parti en courant par\n"
+	.string "là mais je l'ai perdu de vue.\p"
+	.string "Où est-ce qu'il peut bien\n"
+	.string "être maintenant?$"
 

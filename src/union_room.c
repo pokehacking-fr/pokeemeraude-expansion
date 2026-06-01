@@ -3661,7 +3661,9 @@ static u8 CreateTradeBoardWindow(const struct WindowTemplate *template)
     u8 windowId = AddWindow(template);
     DrawStdWindowFrame(windowId, FALSE);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(15));
-    PrintUnionRoomText(windowId, FONT_NORMAL, sText_NameWantedOfferLv, 8, 1, UR_COLOR_TRADE_BOARD_OTHER);
+
+    // !< French Difference ?
+    PrintUnionRoomText(windowId, FONT_SMALL, sText_NameWantedOfferLv, 8, 1, UR_COLOR_TRADE_BOARD_OTHER);
     CopyWindowToVram(windowId, COPYWIN_GFX);
     PutWindowTilemap(windowId);
     return windowId;
@@ -4133,7 +4135,7 @@ static void TradeBoardListMenuItemPrintFunc(u8 windowId, u32 itemId, u8 y)
     struct WirelessLink_Leader *leader = sWirelessLinkMain.leader;
     struct RfuGameData *gameData;
     s32 i, j;
-    u8 playerName[RFU_USER_NAME_LENGTH + 1];
+    u8 playerName[RFU_USER_NAME_LENGTH + 3]; // !< French Difference ?
 
     if (itemId == LIST_HEADER && y == sTradeBoardListMenuTemplate.upText_Y)
     {

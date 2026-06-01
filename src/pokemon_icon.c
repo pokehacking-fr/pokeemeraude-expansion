@@ -346,11 +346,15 @@ const u8 *GetMonIconTilesIsEgg(enum Species species, u32 personality, bool32 isE
 void TryLoadAllMonIconPalettesAtOffset(u16 offset)
 {
     s32 i;
+    //!< French Difference ?
+    const struct SpritePalette* iconPalPtr;
+
     if (offset <= BG_PLTT_ID(16 - ARRAY_COUNT(gMonIconPaletteTable)))
     {
-        for (i = 0; i < (int)ARRAY_COUNT(gMonIconPaletteTable); i++)
+        iconPalPtr = gMonIconPaletteTable;
+        for(i = ARRAY_COUNT(gMonIconPaletteTable) - 1; i >= 0; iconPalPtr++, i--)
         {
-            LoadPalette(gMonIconPaletteTable[i].data, offset, PLTT_SIZE_4BPP);
+            LoadPalette(iconPalPtr->data, offset, PLTT_SIZE_4BPP);
             offset += 16;
         }
     }

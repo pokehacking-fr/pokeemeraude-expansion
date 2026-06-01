@@ -56,5 +56,6 @@ void ConvertInternationalString(u8 *s, enum Language language);
 void StripExtCtrlCodes(u8 *str);
 u8 *StringCopyUppercase(u8 *dest, const u8 *src);
 bool32 DoesStringProperlyTerminate(const u8 *str, u32 last);
+bool32 IsCharVowel(const u32 c);
 
 #endif // GUARD_STRING_UTIL_H

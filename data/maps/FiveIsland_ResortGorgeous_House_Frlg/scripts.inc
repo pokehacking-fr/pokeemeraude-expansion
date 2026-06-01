@@ -141,70 +141,72 @@ FiveIsland_ResortGorgeous_House_EventScript_Butler::
 	end
 
 FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish::
-	.string "SELPHY: Oh?\n"
-	.string "Do I know you from somewhere?\p"
-	.string "Oh, but that doesn't matter.\p"
-	.string "I am exquisitely bored.\n"
-	.string "Please, hear my wish.$"
+	.string "THEMIS: Oh?\n"
+	.string "Est-ce qu'on se connaît?\p"
+	.string "Oh, mais c'est pas grave.\p"
+	.string "Je m'ennuie, tu voudrais pas\n"
+	.string "me rendre un service?$"
 
 FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease::
-	.string "I wish to see a POKéMON.\n"
-	.string "A darling {STR_VAR_1}.\p"
-	.string "I want to see one right away.\n"
-	.string "Please, make my wish come true.$"
+	.string "Il y a un POKéMON que j'aimerais\n"
+	.string "voir. C'est {STR_VAR_1}.\p"
+	.string "Je veux en voir un maintenant.\n"
+	.string "Exauce mon souhait!$"
 
 FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
-	.string "SELPHY: Oh, I'm tired of this.\n"
-	.string "I'm tired of waiting for you.\p"
-	.string "I'll forgive you this time, but\n"
-	.string "please don't fail me next time.$"
+	.string "THEMIS: Oh, je m'ennuie tellement.\n"
+	.string "J'en ai assez de t'attendre.\p"
+	.string "Je te pardonne pour cette fois,\n"
+	.string "mais ne recommence pas.$"
 
 FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
-	.string "SELPHY: Oh, hello, there.\p"
-	.string "Oh, my gracious. That must be the\n"
-	.string "{STR_VAR_1} you caught for me.\p"
-	.string "Giggle…\n"
-	.string "I see a resemblance to you.\p"
-	.string "Thank you so kindly.\p"
+	.string "THEMIS: Tiens, salut.\p"
+	.string "Oh, mais… c'est le {STR_VAR_1}\n"
+	.string "que tu devais me ramener.\p"
+	.string "C'est marrant, il te ressemble\n"
+	.string "un peu, tu trouves pas?\p"
+	.string "En tout cas, c'est très gentil\n"
+	.string "de ta part!\p"
 	.string "… …  … …  … …\n"
-	.string "Is something the matter?\p"
-	.string "You may leave.\p"
+	.string "Eh bien? Il y a un problème?\p"
+	.string "Tu peux disposer maintenant.\p"
 	.string "… …  … …  … …\n"
-	.string "Oh, fine. I understand now.\p"
+	.string "Ah oui, je comprends.\p"
 	.string "SEBASTIAN!\n"
-	.string "I need you here this instant!$"
+	.string "Veuillez venir s'il vous plaît!$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
-	.string "Butler: Yes, my lady.$"
+	.string "MAJORDOME: Oui?$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation::
-	.string "SELPHY: See to it that this person\n"
-	.string "is given a token of appreciation.$"
+	.string "THEMIS: SEBASTIAN, veuillez donner\n"
+	.string "à cette personne la preuve de\p"
+	.string "ma reconnaissance.$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
-	.string "Butler: I shall do as you bid,\n"
-	.string "my lady.$"
+	.string "MAJORDOME: Oui mademoiselle.\n"
+	.string "Comme vous voudrez.$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
-	.string "Butler: I sincerely thank you for\n"
-	.string "pleasing Lady SELPHY.\p"
-	.string "Please accept this as her thanks…$"
+	.string "MAJORDOME: Veuillez recevoir ceci\n"
+	.string "de la part de mademoiselle THEMIS.$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull::
-	.string "Butler: Your BAG appears to be\n"
-	.string "unfortunately full.$"
+	.string "MAJORDOME: Quel dommage, votre\n"
+	.string "SAC semble être déjà plein.$"
 
 FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
 	.string "Oh…\n"
-	.string "How disappointing.$"
+	.string "Comme c'est dommage.$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
-	.string "SELPHY: I wish you the best of\n"
-	.string "luck.$"
+	.string "THEMIS: Je vous souhaite toute\n"
+	.string "la réussite possible.$"
 
 FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
-	.string "Butler: The smile of Lady SELPHY\n"
-	.string "has the brilliance of the sun.\p"
-	.string "Please, I beg you to bring joy\n"
-	.string "to Lady SELPHY.$"
+	.string "MAJORDOME: Le sourire de\n"
+	.string "mademoiselle THEMIS a l'éclat\l"
+	.string "du soleil.\p"
+	.string "J'espère que vous réussirez à\n"
+	.string "le lui rendre. $"
 

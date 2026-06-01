@@ -22,6 +22,7 @@
 #define SOURCE_FILE_H
 
 #include <string>
+#include <set>
 #include "scaninc.h"
 #include "asm_file.h"
 #include "c_file.h"
@@ -46,6 +47,7 @@ public:
     SourceFile(SourceFile&&) = delete;
     SourceFile& operator =(SourceFile const&) = delete;
     SourceFile& operator =(SourceFile&&) = delete;
+    bool HasIncbins();
     const std::set<std::string>& GetIncbins();
     const std::set<Incgfx>& GetIncgfxs();
     const std::set<std::string>& GetIncludes();

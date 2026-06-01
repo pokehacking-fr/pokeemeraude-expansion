@@ -25,18 +25,17 @@ LavenderTown_House1_EventScript_Cubone::
 	end
 
 LavenderTown_House1_Text_Cubone::
-	.string "CUBONE: Kyarugoo!$"
+	.string "OSSELAIT: Lailaii!$"
 
 LavenderTown_House1_Text_RocketsKilledCubonesMother::
-	.string "Those horrible ROCKETS!\n"
-	.string "They deserve no mercy!\p"
-	.string "That poor CUBONE's mother…\p"
-	.string "It was killed trying to escape from\n"
-	.string "TEAM ROCKET.$"
+	.string "Je déteste ces méchants ROCKET!\p"
+	.string "La pauvre mère d'OSSELAIT…\p"
+	.string "Elle a disparu en essayant\n"
+	.string "d'échapper à la TEAM ROCKET!$"
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
-	.string "The ghost of POKéMON TOWER is\n"
-	.string "gone!\p"
-	.string "Someone must have soothed its\n"
-	.string "restless spirit!$"
+	.string "Le SPECTRE de la TOUR POKéMON\n"
+	.string "est parti!\p"
+	.string "Quelqu'un a dû apaiser son âme\n"
+	.string "tourmentée!$"
 

@@ -60,102 +60,106 @@ VictoryRoad_3F_EventScript_Tyra::
 	end
 
 Text_DoubleEdgeTeach::
-	.string "You should be proud of yourself,\n"
-	.string "having battled your way through\l"
-	.string "VICTORY ROAD so courageously.\p"
-	.string "In recognition of your feat,\n"
-	.string "I'll teach you DOUBLE-EDGE.\p"
-	.string "Would you like me to teach that\n"
-	.string "technique?$"
+	.string "Je suis impressionné, tu as\n"
+	.string "réussi à arriver jusque-là si\l"
+	.string "courageusement.\p"
+	.string "Pour la peine, je veux bien\n"
+	.string "t'apprendre DAMOCLES.\p"
+	.string "Veux-tu que j'enseigne cette\n"
+	.string "technique à un de tes POKéMON?$"
 
 Text_DoubleEdgeDeclined::
-	.string "I'll teach you the technique\n"
-	.string "anytime.$"
+	.string "Très bien. N'hésite pas à revenir\n"
+	.string "si tu changes d'avis.$"
 
 Text_DoubleEdgeWhichMon::
-	.string "Which POKéMON should I teach\n"
-	.string "DOUBLE-EDGE?$"
+	.string "A quel POKéMON enseigner\n"
+	.string "DAMOCLES?$"
 
 Text_DoubleEdgeTaught::
-	.string "Keep that drive going for the\n"
-	.string "POKéMON LEAGUE!\p"
-	.string "Take a run at them and knock 'em\n"
-	.string "out!$"
+	.string "Continue comme ça jusqu'à la\n"
+	.string "LIGUE POKéMON!\p"
+	.string "Je sais que tu peux tous les\n"
+	.string "battre facilement.$"
 
 VictoryRoad_3F_Text_GeorgeIntro::
-	.string "I heard rumors of a child prodigy.$"
+	.string "J'ai entendu parler de quelqu'un\n"
+	.string "de très doué!$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
-	.string "The rumors were true!$"
+	.string "…\n"
+	.string "C'était vrai!$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-	.string "So, it was you who beat GIOVANNI\n"
-	.string "of TEAM ROCKET?$"
+	.string "Alors c'était vrai?\p"
+	.string "Tu as bien battu GIOVANNI de la\n"
+	.string "TEAM ROCKET?$"
 
 VictoryRoad_3F_Text_AlexaIntro::
-	.string "TRAINERS live to seek stronger\n"
-	.string "opponents.$"
+	.string "Un DRESSEUR est toujours en quête\n"
+	.string "d'adversaires plus puissants!$"
 
 VictoryRoad_3F_Text_AlexaDefeat::
 	.string "Oh!\n"
-	.string "So strong!$"
+	.string "Tu plaisantes pas toi!$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-	.string "By fighting tough battles, you get\n"
-	.string "stronger.$"
+	.string "Il faut se battre souvent pour\n"
+	.string "progresser.$"
 
 VictoryRoad_3F_Text_CarolineIntro::
-	.string "I'll show you just how good you\n"
-	.string "are. Not!$"
+	.string "Je vais te montrer ma puissance!$"
 
 VictoryRoad_3F_Text_CarolineDefeat::
-	.string "I'm furious!$"
+	.string "Non!\n"
+	.string "Je suis furieuse!$"
 
 VictoryRoad_3F_Text_CarolinePostBattle::
-	.string "You showed me just how good\n"
-	.string "I was…$"
+	.string "Ben, j'suis pas si forte que ça!$"
 
 VictoryRoad_3F_Text_ColbyIntro::
-	.string "Only the chosen can pass here!$"
+	.string "Seuls les élus peuvent passer!$"
 
 VictoryRoad_3F_Text_ColbyDefeat::
-	.string "I don't believe it!$"
+	.string "Oh!\n"
+	.string "J'y crois pas!$"
 
 VictoryRoad_3F_Text_ColbyPostBattle::
-	.string "All TRAINERS here are headed to\n"
-	.string "the POKéMON LEAGUE.\p"
-	.string "Don't let down your guard.$"
+	.string "Ces DRESSEURS sont de la\n"
+	.string "LIGUE POKéMON!\p"
+	.string "Fais attention!$"
 
 VictoryRoad_3F_Text_RayIntro::
-	.string "RAY: Together, the two of us are\n"
-	.string "destined for greatness!$"
+	.string "ROMEO: Nous sommes destinés\n"
+	.string "à de grandes choses.$"
 
 VictoryRoad_3F_Text_RayDefeat::
-	.string "RAY: Ludicrous!\n"
-	.string "This can't be!$"
+	.string "ROMEO: Ridicule!\n"
+	.string "C'est pas possible.$"
 
 VictoryRoad_3F_Text_RayPostBattle::
-	.string "RAY: You've beaten us.\n"
-	.string "Greatness remains elusive…$"
+	.string "ROMEO: Tu nous a battus.\n"
+	.string "J'étais pourtant sûr de moi.$"
 
 VictoryRoad_3F_Text_RayNotEnoughMons::
-	.string "RAY: Together, the two of us are\n"
-	.string "striving for the pinnacle.\p"
-	.string "We need you to bring two POKéMON\n"
-	.string "into battle with us.$"
+	.string "ROMEO: Tous les deux, nous\n"
+	.string "atteindrons les sommets.\p"
+	.string "Mais tu dois avoir un deuxième\n"
+	.string "POKéMON pour te battre avec nous.$"
 
 VictoryRoad_3F_Text_TyraIntro::
-	.string "TYRA: We're trying to become\n"
-	.string "champions together.$"
+	.string "TYRA: Nous allons devenir champions\n"
+	.string "ensemble.$"
 
 VictoryRoad_3F_Text_TyraDefeat::
-	.string "TYRA: Oh, but…$"
+	.string "TYRA: Oh, mais…$"
 
 VictoryRoad_3F_Text_TyraPostBattle::
-	.string "TYRA: You've taught me that power\n"
-	.string "can be infinite in shape and form.$"
+	.string "TYRA: Grâce à toi, j'ai enfin\n"
+	.string "compris que la puissance seule\l"
+	.string "ne suffit pas.$"
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
-	.string "TYRA: You can't battle with us if\n"
-	.string "you have only one POKéMON.$"
+	.string "TYRA: Tu ne peux pas te battre\n"
+	.string "contre nous avec un seul POKéMON.$"
 

@@ -474,6 +474,12 @@ static const union AnimCmd sSpriteAnim_MenuText[] =
     ANIMCMD_END
 };
 
+static const union AnimCmd sSpriteAnim_SelectButton2[] =
+{
+    ANIMCMD_FRAME(200, 30),
+    ANIMCMD_END
+};
+
 static const union AnimCmd sSpriteAnim_SeenText[] =
 {
     ANIMCMD_FRAME(64, 30),
@@ -644,7 +650,8 @@ static const union AnimCmd *const sSpriteAnimTable_InterfaceText[] =
     sSpriteAnim_StartButton,
     sSpriteAnim_SearchText,
     sSpriteAnim_SelectButton,
-    sSpriteAnim_MenuText
+    sSpriteAnim_MenuText,
+    sSpriteAnim_SelectButton2,
 };
 
 static const union AnimCmd *const sSpriteAnimTable_SeenOwnText[] =
@@ -2811,6 +2818,10 @@ static void CreateInterfaceSprites(u8 page)
     // Search text
     spriteId = CreateSprite(&sInterfaceTextSpriteTemplate, 48, DISPLAY_HEIGHT - 16, 0);
     StartSpriteAnim(&gSprites[spriteId], 1);
+
+    //!< French Difference
+    spriteId = CreateSprite(&sInterfaceTextSpriteTemplate, 80, DISPLAY_HEIGHT - 16, 0);
+    StartSpriteAnim(&gSprites[spriteId], 4);
 
     spriteId = CreateSprite(&sRotatingPokeBallSpriteTemplate, 0, DISPLAY_HEIGHT / 2, 2);
     gSprites[spriteId].oam.affineMode = ST_OAM_AFFINE_NORMAL;

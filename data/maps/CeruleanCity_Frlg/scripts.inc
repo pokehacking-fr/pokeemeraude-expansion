@@ -359,178 +359,173 @@ CeruleanCity_EventScript_GymSign::
 
 CeruleanCity_Text_RivalIntro::
 	.string "{RIVAL}: Yo! {PLAYER}!\p"
-	.string "You're still struggling along back\n"
-	.string "here?\p"
-	.string "I'm doing great! I caught a bunch\n"
-	.string "of strong and smart POKéMON!\p"
-	.string "Here, let me see what you caught,\n"
-	.string "{PLAYER}!$"
+	.string "Alors tu t'en sors?\p"
+	.string "Moi c'est l'pied! J'ai attrapé plein\n"
+	.string "de POKéMON super puissants!\p"
+	.string "Fais-moi voir ce que t'as\n"
+	.string "attrapé, {PLAYER}!$"
 
 CeruleanCity_Text_RivalDefeat::
-	.string "Hey!\n"
-	.string "Take it easy!\l"
-	.string "You won already!$"
+	.string "Houlà!\n"
+	.string "Calmos!\l"
+	.string "T'as gagné, OK!$"
 
 CeruleanCity_Text_RivalPostBattle::
-	.string "{RIVAL}: Hey, guess what?\p"
-	.string "I went to BILL's and got him to\n"
-	.string "show me his rare POKéMON.\p"
-	.string "That added a lot of pages to my\n"
-	.string "POKéDEX!\p"
-	.string "After all, BILL's world famous as a\n"
-	.string "POKéMANIAC.\p"
-	.string "He invented the POKéMON Storage\n"
-	.string "System on PC, too.\p"
-	.string "Since you're using his system,\n"
-	.string "you should go thank him.\p"
-	.string "Well, I better get rolling!\n"
-	.string "Smell ya later!$"
+	.string "{RIVAL}: Hé! T'sais quoi?\p"
+	.string "J'suis allé chez LEO et y m'a\n"
+	.string "montré ses POKéMON rares!\p"
+	.string "Ça m'a rajouté plein d'pages à\n"
+	.string "mon POKéDEX!\p"
+	.string "Tout l'monde sait que LEO est\n"
+	.string "un POKéMANIAC!\p"
+	.string "Il a même inventé le stockage des\n"
+	.string "POKéMON sur PC!\p"
+	.string "T'as qu'à aller l'voir!\p"
+	.string "Bon, je trace.\n"
+	.string "Tchao!$"
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor::
-	.string "Oh, yeah, right.\p"
-	.string "I feel sorry for you. No, really.\n"
-	.string "You're always plodding behind me.\p"
-	.string "So here, I'll give you a little\n"
-	.string "present as a favor.$"
+	.string "Ouais, c'est ça…\p"
+	.string "J'ai les boules pour toi. J'te jure,\n"
+	.string "t'es toujours derrière moi.\p"
+	.string "Bon, j'vais te donner un cadeau,\n"
+	.string "mais c'est une faveur.$"
 
 CeruleanCity_Text_ExplainFameCheckerSmellYa::
-	.string "A chatty gossip like you…\n"
-	.string "That thing's perfect.\p"
-	.string "I don't need it because I don't\n"
-	.string "give a hoot about others.\p"
-	.string "All right, this time I really am\n"
-	.string "gone. Smell ya!$"
+	.string "C'est parfait pour une pipelette\n"
+	.string "comme toi.\p"
+	.string "J'en ai pas besoin parce que\n"
+	.string "j'en ai rien à faire des autres.\p"
+	.string "Allez, j'suis plus là,\n"
+	.string "tchao!$"
 
 CeruleanCity_Text_GruntIntro::
-	.string "Hey! Stay out!\n"
-	.string "It's not your yard!\p"
-	.string "…Huh?\n"
-	.string "Me?\p"
-	.string "I'm an innocent bystander!\n"
-	.string "Don't you believe me?{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
+	.string "Holà!\n"
+	.string "C'est pas chez toi, ici…\p"
+	.string "Quoi? Moi?\p"
+	.string "J'suis innocent! Hein? Quoi?\n"
+	.string "Tu m'crois pas? Tu m'cherches?$"
 
 CeruleanCity_Text_GruntDefeat::
-	.string "GRUNT: Stop! I give up!\n"
-	.string "I'll leave quietly!$"
+	.string "SBIRE: Stop!\n"
+	.string "J'me rends! J'fais pas le poids!$"
 
 CeruleanCity_Text_OkayIllReturnStolenTM::
-	.string "…Okay.\n"
-	.string "I'll return the TM I stole.$"
+	.string "OK! Voilà la CT qu'j'ai volée!$"
 
 CeruleanCity_Text_RecoveredTM28FromGrunt::
-	.string "{PLAYER} recovered TM28 from\n"
-	.string "the TEAM ROCKET GRUNT.$"
+	.string "{PLAYER} récupère\n"
+	.string "CT28!$"
 
 CeruleanCity_Text_BetterGetMovingBye::
-	.string "I better get moving!\n"
-	.string "Bye!$"
+	.string "J'décampe…\n"
+	.string "Bye bye!$"
 
 CeruleanCity_Text_MakeRoomForThisCantRun::
-	.string "Make room for this!\n"
-	.string "I can't run until I give it to you!$"
+	.string "Tu dois faire de la place\n"
+	.string "si tu veux que je te la donne!$"
 
 CeruleanCity_Text_TrainerLifeIsToughIsntIt::
-	.string "You're a TRAINER, too?\p"
-	.string "Collecting, battling…\n"
-	.string "It's a tough life, isn't it?$"
+	.string "T'es un DRESSEUR aussi?\p"
+	.string "Capturer… Collectionner…\n"
+	.string "Combattre… Dur, hein?$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
-	.string "Did you know that you can CUT down\n"
-	.string "small trees?\p"
-	.string "Even that small tree in front of\n"
-	.string "the shop can be CUT down.\p"
-	.string "I think there's a way around it,\n"
-	.string "though.$"
+	.string "Les POKéMON peuvent couper des\n"
+	.string "petits buissons avec COUPE.\p"
+	.string "Même le petit arbre devant la\n"
+	.string "boutique peut être coupé.\p"
+	.string "Mais il doit bien y avoir un autre\n"
+	.string "moyen de passer.$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
-	.string "If that SLOWBRO wasn't there, you\n"
-	.string "could CUT down the small tree.\p"
-	.string "That way, you could get to the\n"
-	.string "other side.\p"
-	.string "I think there's a way around it,\n"
-	.string "though.$"
+	.string "Si ce FLAGADOSS n'était pas là,\n"
+	.string "tu pourrais couper ces arbustes.\p"
+	.string "Comme ça, tu pourrais passer\n"
+	.string "de l'autre côté.\p"
+	.string "Mais il doit bien y avoir un autre\n"
+	.string "moyen de passer.$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
-	.string "You're making an encyclopedia on\n"
-	.string "POKéMON? That sounds amusing.$"
+	.string "Tu fais une encyclopédie sur les\n"
+	.string "POKéMON? Pas mal.$"
 
 CeruleanCity_Text_PeopleHereWereRobbed::
-	.string "The people here were robbed.\p"
-	.string "It's obvious that TEAM ROCKET is\n"
-	.string "behind this most heinous crime!\p"
-	.string "Even our POLICE FORCE has\n"
-	.string "trouble with the ROCKETS!$"
+	.string "Ces pauvres gens ont été volés.\p"
+	.string "L'odieuse TEAM ROCKET est\n"
+	.string "derrière tout ça. C'est sûr!\p"
+	.string "Même les forces de police ont du\n"
+	.string "mal à lutter!$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
-	.string "Okay! SLOWBRO!\n"
-	.string "Use SONICBOOM!$"
+	.string "Allez! FLAGADOSS!\n"
+	.string "Attaque! Attaque!$"
 
 CeruleanCity_Text_SlowbroPayAttention::
-	.string "Come on, SLOWBRO, pay attention!$"
+	.string "Allez, FLAGADOSS, fais\n"
+	.string "un peu attention.$"
 
 CeruleanCity_Text_SlowbroPunch::
-	.string "SLOWBRO, punch!$"
+	.string "FLAGADOSS, cogne!$"
 
 CeruleanCity_Text_NoYouBlewItAgain::
-	.string "No!\n"
-	.string "You blew it again!$"
+	.string "Mais non!\n"
+	.string "Tu fais n'importe quoi!$"
 
 CeruleanCity_Text_SlowbroWithdraw::
-	.string "SLOWBRO, WITHDRAW!$"
+	.string "FLAGADOSS, REPLI!$"
 
 CeruleanCity_Text_HardToControlMonsObedience::
-	.string "No! That's wrong!\n"
-	.string "It's so hard to control POKéMON!\p"
-	.string "Your POKéMON's obedience depends\n"
-	.string "on your abilities as a TRAINER.$"
+	.string "Non! Pas ça! Pfff…\n"
+	.string "C'est dur de contrôler un POKéMON!\p"
+	.string "Seuls les bons DRESSEURS se font\n"
+	.string "obéir de leurs POKéMON!$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
-	.string "SLOWBRO took a snooze…$"
+	.string "FLAGADOSS pionce comme une masse.$"
 
 CeruleanCity_Text_SlowbroLoafingAround::
-	.string "SLOWBRO is loafing around…$"
+	.string "FLAGADOSS flâne…$"
 
 CeruleanCity_Text_SlowbroTurnedAway::
-	.string "SLOWBRO turned away…$"
+	.string "FLAGADOSS se balade…$"
 
 CeruleanCity_Text_SlowbroIgnoredOrders::
-	.string "SLOWBRO ignored orders…$"
+	.string "FLAGADOSS ignore les ordres…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-	.string "I want a bright red bicycle.\p"
-	.string "I'll keep it at home, so it won't\n"
-	.string "get dirty.$"
+	.string "Je veux une jolie bicyclette!\p"
+	.string "Je la veux toute rouge!$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-	.string "This is CERULEAN CAVE.\p"
-	.string "Horribly strong POKéMON live inside\n"
-	.string "there.\p"
-	.string "It takes a very special TRAINER to\n"
-	.string "be allowed inside there.\p"
-	.string "You'd have to be strong enough to\n"
-	.string "become the POKéMON LEAGUE\l"
-	.string "CHAMPION for starters.\p"
-	.string "And, you would have to have\n"
-	.string "made a great achievement.$"
+	.string "Des POKéMON trop puissants vivent\n"
+	.string "ici, dans la CAVE AZUREE!\p"
+	.string "Seuls les DRESSEURS spéciaux\n"
+	.string "ont le droit d'y pénétrer.\p"
+	.string "Il te faudra tout d'abord devenir\n"
+	.string "le MAITRE de la LIGUE\p"
+	.string "POKéMON, mais aussi\n"
+	.string "avoir réussi un excellent parcours.$"
 
 CeruleanCity_Text_CitySign::
-	.string "CERULEAN CITY\n"
-	.string "A Mysterious, Blue Aura Surrounds\l"
-	.string "It$"
+	.string "AZURIA\n"
+	.string "Baignée par une aura d'un bleu\l"
+	.string "mystérieux$"
 
 CeruleanCity_Text_TrainerTipsHeldItems::
-	.string "TRAINER TIPS\p"
-	.string "A POKéMON can be made to hold\n"
-	.string "an item.\p"
-	.string "Some items can even be used by\n"
-	.string "the holding POKéMON in battle.$"
+	.string "ASTUCE\p"
+	.string "Les POKéMON peuvent porter\n"
+	.string "des objets.\p"
+	.string "Certains objets portés peuvent\n"
+	.string "même être utilisés en combat.$"
 
 CeruleanCity_Text_BikeShopSign::
-	.string "Grass and caves handled easily!\n"
-	.string "BIKE SHOP$"
+	.string "Plus vite que le vent, plus vite\n"
+	.string "dans les villes!\p"
+	.string "… CYCLES A GOGO$"
 
 CeruleanCity_Text_GymSign::
-	.string "CERULEAN CITY POKéMON GYM\n"
-	.string "LEADER: MISTY\l"
-	.string "The Tomboyish Mermaid!$"
+	.string "ARENE POKéMON d'AZURIA\n"
+	.string "CHAMPION: ONDINE\l"
+	.string "La sirène en shorts.$"
 

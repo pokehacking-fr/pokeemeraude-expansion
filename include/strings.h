@@ -335,6 +335,8 @@ extern const u8 gText_UnkHeight[];
 extern const u8 gText_UnkHeightMetric[];
 extern const u8 gText_UnkWeight[];
 extern const u8 gText_UnkWeightMetric[];
+extern const u8 gText_EmptyHeight[];
+extern const u8 gText_EmptyWeight[];
 extern const u8 gText_HTHeight[];
 extern const u8 gText_WTWeight[];
 extern const u8 gText_SearchingPleaseWait[];
@@ -1376,7 +1378,9 @@ extern const u8 gText_Cancel2[];
 extern const u8 gText_Register[];
 extern const u8 gText_NotPkmnOtherTrainerWants[];
 extern const u8 gText_ThatIsntAnEgg[];
+extern const u8 gText_PkmnCantBeTradedNow[];
 extern const u8 gText_OtherTrainersPkmnCantBeTraded[];
+extern const u8 gText_EggCantBeTradedNow[];
 extern const u8 gText_OtherTrainerCantAcceptPkmn[];
 extern const u8 gText_CantTradeWithTrainer[];
 
@@ -2155,5 +2159,10 @@ extern const u8 gText_OakThisIsListOfPokemon[];
 extern const u8 gText_Boy[];
 extern const u8 gText_Girl[];
 
+
+// Specific to the French Version
+extern const u8 gText_Eleve[];
+extern const u8 gText_Dresseur[];
+extern const u8 gText_Champion[];
 
 #endif // GUARD_STRINGS_H

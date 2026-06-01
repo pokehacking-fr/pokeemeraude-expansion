@@ -1,4 +1,4 @@
-const u16 gSlotMachineMenu_Pal[] = INCGFX_U16("graphics/slot_machine/menu.png", ".gbapal");
+const u16 gSlotMachineMenu_Pal[] = INCGFX_U16("graphics/slot_machine/menu.pal", ".gbapal");
 const u32 gSlotMachineMenu_Gfx[] = INCGFX_U32("graphics/slot_machine/menu.png", ".4bpp.smol");
 const u16 gSlotMachineMenu_Tilemap[] = INCBIN_U16("graphics/slot_machine/menu.bin");
 

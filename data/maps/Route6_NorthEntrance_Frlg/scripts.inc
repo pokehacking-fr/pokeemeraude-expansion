@@ -84,28 +84,25 @@ Route6_NorthEntrance_Movement_BlockPlayerEntry::
 	step_end
 
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
-	.string "I'm on guard duty.\n"
-	.string "Gee, I'm thirsty, though!\p"
-	.string "Oh, wait there, the road's closed.$"
+	.string "Je suis de garde ici…\n"
+	.string "Je crève de soif!\p"
+	.string "Oh, la route est fermée.\n"
+	.string "On ne passe pas!$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty::
-	.string "Oh, that TEA…\n"
-	.string "It looks awfully tasty…$"
+	.string "Oh, ce THE…\n"
+	.string "Il a l'air délicieux…$"
 
 Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
-	.string "Huh? I can have this drink?\n"
-	.string "Gee, thanks!\l"
-	.string "… …\l"
-	.string "Glug, glug…\l"
-	.string "… …\l"
-	.string "Gulp…\l"
-	.string "If you want to go to SAFFRON\l"
-	.string "CITY…\l"
-	.string "… …\l"
-	.string "You can go on through.\p"
-	.string "I'll share this TEA with the other\n"
-	.string "guards!$"
+	.string "Hein? Tu veux bien m'en donner?\n"
+	.string "Super, merci!\p"
+	.string "… …\n"
+	.string "Gloup, gloup… …\p"
+	.string "Tu peux passer si tu veux\n"
+	.string "aller à SAFRANIA.\p"
+	.string "Je vais partager ce THE avec les\n"
+	.string "autres gardes!$"
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-	.string "Hi, how's it going?$"
+	.string "Salut! Comment ça va?$"
 

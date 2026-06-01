@@ -42,53 +42,57 @@ PokemonTower_5F_EventScript_Janae::
 	end
 
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
-	.string "Come, child!\n"
-	.string "I have purified this space.\l"
-	.string "You can rest here.$"
+	.string "Approche, enfant!\p"
+	.string "J'ai scellé cet endroit grâce à\n"
+	.string "ma sainte magie blanche!\p"
+	.string "Tu peux te reposer ici!$"
 
 PokemonTower_5F_Text_TammyIntro::
-	.string "Give…me…\n"
-	.string "your…all…$"
+	.string "Donne… moi…\n"
+	.string "ton… âme…$"
 
 PokemonTower_5F_Text_TammyDefeat::
-	.string "Gasp!$"
+	.string "Glargh!$"
 
 PokemonTower_5F_Text_TammyPostBattle::
-	.string "I was under possession.$"
+	.string "J'étais possédée!$"
 
 PokemonTower_5F_Text_RuthIntro::
-	.string "You…shall…\n"
-	.string "join…us…$"
+	.string "Viens… avec…\n"
+	.string "nous…$"
 
 PokemonTower_5F_Text_RuthDefeat::
-	.string "What a nightmare!$"
+	.string "Hein!\n"
+	.string "J'ai fait un cauchemar!$"
 
 PokemonTower_5F_Text_RuthPostBattle::
-	.string "I was possessed.$"
+	.string "J'étais possédée!$"
 
 PokemonTower_5F_Text_KarinaIntro::
-	.string "Zombies!$"
+	.string "Zombis!$"
 
 PokemonTower_5F_Text_KarinaDefeat::
-	.string "Ha?$"
+	.string "Hein?$"
 
 PokemonTower_5F_Text_KarinaPostBattle::
-	.string "I regained my senses.$"
+	.string "Je suis revenue à la raison!$"
 
 PokemonTower_5F_Text_JanaeIntro::
-	.string "Urgah…\n"
-	.string "Urff…$"
+	.string "Poyé Polomi!\n"
+	.string "Le mal est parmi nous…$"
 
 PokemonTower_5F_Text_JanaeDefeat::
-	.string "Whoo!$"
+	.string "Quoi?\n"
+	.string "Jeune taoïste, tu oses m'ôter le\l"
+	.string "yang de la bouche!$"
 
 PokemonTower_5F_Text_JanaePostBattle::
-	.string "I fell to evil spirits despite my\n"
-	.string "training in the mountains…$"
+	.string "Mon Tao à moi, c'est le plus beau\n"
+	.string "des Taos!$"
 
 PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed::
-	.string "Entered the purified and protected\n"
-	.string "zone.\p"
-	.string "{PLAYER}'s POKéMON were fully\n"
-	.string "healed.$"
+	.string "Vous pénétrez dans une zone\n"
+	.string "sanctuaire!\p"
+	.string "Les POKéMON de {PLAYER} sont\n"
+	.string "soignés!$"
 

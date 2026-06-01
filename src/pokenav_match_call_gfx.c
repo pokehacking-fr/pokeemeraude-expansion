@@ -3,6 +3,7 @@
 #include "data.h"
 #include "decompress.h"
 #include "dma3.h"
+#include "graphics.h"
 #include "international_string_util.h"
 #include "main.h"
 #include "match_call.h"
@@ -124,10 +125,10 @@ static const u16 sListWindow_Pal[] = INCGFX_U16("graphics/pokenav/match_call/lis
 static const u16 sPokeball_Pal[] = INCGFX_U16("graphics/pokenav/match_call/pokeball.pal", ".gbapal");
 static const u32 sPokeball_Gfx[] = INCGFX_U32("graphics/pokenav/match_call/pokeball.png", ".4bpp.smol");
 
-static const u8 gText_NumberRegistered[] = _("No. registered");
-static const u8 gText_NumberOfBattles[] = _("No. of battles");
-static const u8 gText_TrainerCloseBy[] = _("That TRAINER is close by.\nTalk to the TRAINER in person!");
-static const u8 gText_Unknown[] = _("UNKNOWN");
+static const u8 gText_NumberRegistered[] = _("Nb dresseurs:");
+static const u8 gText_NumberOfBattles[] = _("Nb combats:");
+static const u8 gText_TrainerCloseBy[] = _("Le DRESSEUR est proche.\nParlez-lui directement.");
+static const u8 gText_Unknown[] = _("INCONNU");
 
 static const struct BgTemplate sMatchCallBgTemplates[3] =
 {
@@ -204,9 +205,9 @@ static const struct WindowTemplate sMatchCallInfoBoxWindowTemplate =
 
 static const u8 *const sMatchCallOptionTexts[MATCH_CALL_OPTION_COUNT] =
 {
-    [MATCH_CALL_OPTION_CALL]   = COMPOUND_STRING("CALL"),
-    [MATCH_CALL_OPTION_CHECK]  = COMPOUND_STRING("CHECK"),
-    [MATCH_CALL_OPTION_CANCEL] = COMPOUND_STRING("CANCEL")
+    [MATCH_CALL_OPTION_CALL]   = COMPOUND_STRING("APPELS"),
+    [MATCH_CALL_OPTION_CHECK]  = COMPOUND_STRING("DETAILS"),
+    [MATCH_CALL_OPTION_CANCEL] = COMPOUND_STRING("RETOUR")
 };
 
 // The series of 5 dots that appear when someone is called with Match Call
@@ -327,11 +328,12 @@ static u32 LoopedTask_OpenMatchCall(s32 state)
         InitBgTemplates(sMatchCallBgTemplates, ARRAY_COUNT(sMatchCallBgTemplates));
         ChangeBgX(2, 0, BG_COORD_SET);
         ChangeBgY(2, 0, BG_COORD_SET);
-        DecompressAndCopyTileDataToVram(2, sMatchCallUI_Gfx, 0, 0, 0);
+        //!< Global variables in the French Version
+        DecompressAndCopyTileDataToVram(2, gMatchCallUI_Gfx, 0, 0, 0);
         SetBgTilemapBuffer(2, gfx->bgTilemapBuffer2);
-        CopyToBgTilemapBuffer(2, sMatchCallUI_Tilemap, 0, 0);
+        CopyToBgTilemapBuffer(2, gMatchCallUI_Tilemap, 0, 0);
         CopyBgTilemapBufferToVram(2);
-        CopyPaletteIntoBufferUnfaded(sMatchCallUI_Pal, BG_PLTT_ID(2), sizeof(sMatchCallUI_Pal));
+        CopyPaletteIntoBufferUnfaded(gMatchCallUI_Pal, BG_PLTT_ID(2), PLTT_SIZE_4BPP);
         CopyBgTilemapBufferToVram(2);
         return LT_INC_AND_PAUSE;
     case 1:
@@ -874,8 +876,8 @@ static void CreateMatchCallList(void)
     template.count = GetNumberRegistered();
     template.itemSize = sizeof(struct PokenavListItem);
     template.startIndex = 0;
-    template.item_X = 13;
-    template.windowWidth = 16;
+    template.item_X = 12;      //!< French Difference
+    template.windowWidth = 17; //!< ^
     template.listTop = 1;
     template.maxShowed = 8;
     template.fillValue = 3;
