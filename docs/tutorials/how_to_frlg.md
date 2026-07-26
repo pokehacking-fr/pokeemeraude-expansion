@@ -1,19 +1,19 @@
-# How to use FireRed/LeafGreen
+# Comment utiliser Rouge Feu/Vert Feuille
 
-## How to compile
-```make firered -j<output of nproc>```<br>
-or<br>
-```make leafgreen -j<output of nproc>```
+## Comment compiler
+```make firered -j<résultat de nproc>```<br>
+ou<br>
+```make leafgreen -j<résultat de nproc>```
 
-Note: If you switch between building emerald and FRLG, `make clean` is required at the moment.
+Note: Si vous sautez de compilation en compilation entre Emeraude et RFVF, vous devrez exécuter un `make clean` au préalable.
 
-## Porymap adjustments
-For Porymap to work with FRLG maps you need to adjust a few settings (`Options > Project Settings`):
--  in the `General` tab change the base game version to `pokefirered`
+## Ajustements sur Porymap
+Pour que Porymap fonctionne avec les maps de RFVF, certains paramètres doivent être ajustés (`Options > Project Settings`):
+- Dans l'onglet `General`, changez la version de base en `pokefirered`
 
 ![porymap_general](./img/frlg/porymap_general.png)
 
-- in the `Identifiers` tab change the following attributes:
+- Dans l'onglet `Identifiers`, changez les attributs suivants:
   - define_tiles_primary: `NUM_TILES_IN_PRIMARY_FRLG`
   - define_metatiles_primary: `NUM_METATILES_IN_PRIMARY_FRLG`
   - define_pals_primary: `NUM_PALS_IN_PRIMARY_FRLG`
@@ -22,12 +22,12 @@ For Porymap to work with FRLG maps you need to adjust a few settings (`Options >
 
 ![porymap_identifier](./img/frlg/porymap_identifier.png)
 
-## How to add maps
-For maps to be included in the build process they need to have a custom attribute `region` with the value `REGION_KANTO` or `REGION_HOENN` for their respective games. 
+## Comment ajouter des maps
+Pour que les maps soient inclues dans le processus de compilation, elles doivent avoir un attribut personnalisé de `region` avec la valeur `REGION_KANTO` ou `REGION_HOENN` pour leurs jeux respectifs.
 
-If you create a new map, the `region` will not be there, and must be added manually in the `map.json` or through Porymap.
+Si vous créez une nouvelle map, l'attribut `region` ne sera pas présent par défaut, et doit être ajouté manuellement dans le fichier `map.json` correspondant ou à travers Porymap.
 
-**Examples:**
+**Exemples:**
 
 map.json:
 ```
@@ -43,9 +43,9 @@ Porymap:
 
 ![porymap_region_attribute](./img/frlg/porymap_region_attribute.png)
 
-If a map does not have the `region` attribute, the compiler will default to what game you compile, and the map you created gets included in that game.
+Si une map ne possède pas l'attribut `region`, le compilateur va utiliser comme valeur par défaut la région associée à la version que vous compilez, et la map que vous avez créé sera inclue dans le jeu.
 
-Additionally, maps must have a `layout_version` that you manually include in `layouts.json`.
+Additionnellement, les maps doivent avoir un attribut `layout_version` que vous ajouterez manuellement dans `layouts.json`.
 ```
     {
       "id": "LAYOUT_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
@@ -62,38 +62,38 @@ Additionally, maps must have a `layout_version` that you manually include in `la
     },
 ```
 
-Similarly to the `region` attribute, if a map in `layouts.json` does not have a `layout_version`, it will default to the game being compiled.
+Comme l'attribut `region`, si une map dans `layouts.json` n'a pas d'attribut `layout_version`, le compilateur utilisera la valeur par défaut de la version que vous compilez.
 
-Lastly, you cannot properly access map inside a vanilla map group from a different game. If you create a new map in a Fire Red map group (such as `gMapGroup_TownsAndRoutes_Frlg`), you cannot warp or connect to it from an Emerald map in game, and vice versa. It is recommended to either put them in existing, fitting map groups, or create a new map group. 
+Enfin, vous ne pouvez pas accéder *normalement* à une map dans un groupe de maps (une bank) vanilla depuis une autre version. Si vous créez une map dans un groupe de maps appartenant à Rouge Feu (ex: `gMapGroup_TownsAndRoutes_Frlg`), vous ne pourrez pas warp ou connecter cette map à une map sur Emeraude, et vice-versa. Il est recommandé de mettre vos maps dans des groupes de maps existants et appropriés, ou de créer de nouveaux groupes de maps.
 
-## Migrating FRLG tilesets
-To migrate tilesets that have been previously created for pokefirered you can use [this script](/migration_scripts/frlg_metatile_behavior_converter.py).<br>
-Instructions are in the script.
+## Migrer les tilesets de RFVF
+Pour migrer les tilesets qui ont précédemment été créés pour `pokerougefeu`, vous pouvez utiliser [ce script](/migration_scripts/frlg_metatile_behavior_converter.py).<br>
+Les instructions sont dans le script.
 
-## Disclaimer: The changes below aren't the permanent solution for the problems, A better build system is being worked on so these solutions might cause merge conflicts down the line
+## Avertissement: Les changements qui suivent ne sont pas des solutions permanentes aux problèmes énoncés, un meilleur système de compilation est en développement, et par conséquent, ces changements pourraient causer des merge conflicts dans le futur
 
-## Build FRLG by default
-If you want that running `make -j<output of nproc>` to directly compile one of firered or leafgreen instead of emerald make the following changes to the `makefile`
+## Compiler RFVF par défaut
+Si vous voulez que `make -j<résultat de nproc>` compile directement Rouge Feu ou Vert Feuille au lieu d'Emeraude, effectuez les changements suivants dans le fichier `Makefile`:
 
-(Here I have set the default version to be leafgreen and you can still compile emerald or firered using make emerald or make firered)
+(Ici, la version par défaut est Vert Feuille. Vous pouvez quand-même compiler Emeraude ou Rouge Feu en utilisant `make emerald` ou `make firered`).
 
 ```diff
 -GAME_VERSION ?= EMERALD
 -TITLE        ?= POKEMON EMER
--GAME_CODE    ?= BPEE
--BUILD_NAME   ?= emerald
+-GAME_CODE    ?= BPEF
+-BUILD_NAME   ?= emeraude
 -MAP_VERSION  ?= emerald
 +GAME_VERSION ?= LEAFGREEN
 +TITLE        ?= POKEMON LEAF
-+GAME_CODE    ?= BPGE
-+BUILD_NAME   ?= leafgreen
++GAME_CODE    ?= BPGF
++BUILD_NAME   ?= vertfeuille
 +MAP_VERSION  ?= firered
 
 ifeq (firered,$(MAKECMDGOALS))
   	GAME_VERSION 	:= FIRERED
 	TITLE       	:= POKEMON FIRE
-	GAME_CODE   	:= BPRE
-	BUILD_NAME  	:= firered
+	GAME_CODE   	:= BPRF
+	BUILD_NAME  	:= rougefeu
 	MAP_VERSION 	:= firered
 else
 
@@ -101,22 +101,22 @@ else
 -	GAME_VERSION 	:= LEAFGREEN
 -	TITLE       	:= POKEMON LEAF
 -	GAME_CODE   	:= BPGE
--	BUILD_NAME  	:= leafgreen
+-	BUILD_NAME  	:= vertfeuille
 -	MAP_VERSION 	:= firered
 +ifeq (emerald,$(MAKECMDGOALS))
 +	GAME_VERSION 	:= EMERALD
 +	TITLE       	:= POKEMON EMER
-+	GAME_CODE   	:= BPEE
-+	BUILD_NAME  	:= emerald
++	GAME_CODE   	:= BPEF
++	BUILD_NAME  	:= emeraude
 +	MAP_VERSION 	:= emerald
 endif
 endif
 ```
 
-## Make empty region attibutes defaults to REGION_KANTO
-Another issue is that you need to add `REGION_KANTO` attribute to every new map you create
+## Faire en sorte que les attributs `region` vides correspondent à `REGION_KANTO` par défaut
+Un autre problème est que vous devez ajouter l'attribut `region`, et le définir en `REGION_KANTO` pour chaque map que vous créerez.
 
-Make the following changes to your `tools/mapjson/mapjson.cpp` so the new maps you add without the `REGION_KANTO` also work fine
+Effectuez les changements suivants dans `tools/mapjson/mapjson.cpp` pour que les nouvelles maps sans `REGION_KANTO` fonctionnent correctement
 
 ```diff
 string region = json_to_string(map_data, "region", true);
@@ -133,20 +133,20 @@ string region = json_to_string(map_data, "region", true);
         }
 ```
 
-Then run this script to set `REGION_KANTO` as the region attribute for all the Hoenn Maps
-
-**Make sure you run this from the [root folder](../../) of your project!**
+Ensuite, exécutez ce script pour que les attributs `region` de toutes les maps d'Hoenn soient définies en `REGION_KANTO`.
+**Assurez-vous d'exécuter ce script à partir du [dossier racine](../..) de votre projet!**
 
 ```
 python3 migration_scripts/add_region_hoenn_attribute_to_hoenn_maps.py
 ```
 
-Make sure to run `make clean` after running this script
+Assurez-vous aussi d'exécuter un `make clean` après ce script.
 
 ## Fix CI if you are building FRLG by default
-If you make these I would also reccomend fixing your CI too to match these changes
+## Corriger la CI si vous compilez RFVF par défaut
+Si vous effectuez ces changements ci-dessus, il est recommandé de corriger votre CI pour qu'elle corresponde à vos changements.
 
-Make the following changes to your `.github/workflows/build.yml`
+Effectuez les changements suivants dans le fichier `.github/workflows/build.yml`
 
 ```diff
 # build-essential and git are already installed
