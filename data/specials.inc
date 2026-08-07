@@ -211,7 +211,7 @@ gSpecials::
 	def_special ChooseSendDaycareMon, waitstate=TRUE
 	def_special ShowDaycareLevelMenu, waitstate=TRUE
 	def_special GetNumLevelsGainedFromDaycare
-	def_special GetDaycareCost
+	def_special GetDaycareCostAndPrepareString
 	def_special TakePokemonFromDaycare
 	def_special ScriptHatchMon
 	def_special EggHatch, waitstate=TRUE

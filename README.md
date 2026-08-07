@@ -19,7 +19,7 @@
 Si vous utilisez **`pokeemeraude-expansion`**, veuillez créditer **RHH (Rom Hacking Hideout)**, et **Qigast**. Optionnellement, incluez la version pour plus de clarté.
 
 ```
-Basé sur pokeemeraude-expansion 1.16.2 de RHH et Qigast https://github.com/pokehacking-fr/pokeemeraude-expansion/
+Basé sur pokeemeraude-expansion 1.16.3 de RHH et Qigast https://github.com/pokehacking-fr/pokeemeraude-expansion/
 ```
 
 Pensez à [créditer tous les contributeurs](CREDITS.md) impliqués dans le projet!
