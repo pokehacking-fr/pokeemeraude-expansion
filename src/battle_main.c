@@ -2752,6 +2752,16 @@ void SpriteCB_HideAsMoveTarget(struct Sprite *sprite)
     sprite->callback = SpriteCallbackDummy_2;
 }
 
+bool32 ShouldHideBattler(enum BattlerId battler)
+{
+    if (!IsBattlerAlive(battler)
+     || !gBattleSpritesDataPtr->healthBoxesData[battler].healthboxIsBouncing)
+        return FALSE;
+
+    SpriteCallback callback = gSprites[gBattlerSpriteIds[battler]].callback;
+    return callback == SpriteCB_ShowAsMoveTarget || callback == SpriteCB_BlinkVisible;
+}
+
 void SpriteCB_OpponentMonFromBall(struct Sprite *sprite)
 {
     if (sprite->affineAnimEnded)
@@ -3107,9 +3117,11 @@ static void BattleStartClearSetData(void)
 
     if (IsSleepClauseEnabled())
     {
-        // If monCausingSleepClause[side] equals PARTY_SIZE, Sleep Clause is not active for the given side.
-        gBattleStruct->monCausingSleepClause[B_SIDE_PLAYER] = PARTY_SIZE;
-        gBattleStruct->monCausingSleepClause[B_SIDE_OPPONENT] = PARTY_SIZE;
+        // If monCausingSleepClause[side].partyIndex equals PARTY_SIZE, Sleep Clause is not active for the given side.
+        gBattleStruct->monCausingSleepClause[B_SIDE_PLAYER].partyIndex = PARTY_SIZE;
+        gBattleStruct->monCausingSleepClause[B_SIDE_PLAYER].trainer = MAX_BATTLE_TRAINERS;
+        gBattleStruct->monCausingSleepClause[B_SIDE_OPPONENT].partyIndex = PARTY_SIZE;
+        gBattleStruct->monCausingSleepClause[B_SIDE_OPPONENT].trainer = MAX_BATTLE_TRAINERS;
     }
 }
 
@@ -3173,6 +3185,8 @@ void SwitchInClearSetData(enum BattlerId battler, struct Volatiles *volatilesCop
             gBattleMons[i].volatiles.syrupBomb = FALSE;
         if (gBattleMons[i].volatiles.octolock && gBattleMons[i].volatiles.octolockedBy == battler)
             gBattleMons[i].volatiles.octolock = FALSE;
+        if (gBattleMons[i].volatiles.skyDropTarget == battler + 1)
+            gBattleMons[i].volatiles.skyDropTarget = 0;
     }
 
     gActionSelectionCursor[battler] = 0;
@@ -3289,6 +3303,8 @@ void FaintClearSetData(enum BattlerId battler)
             gBattleMons[i].volatiles.syrupBomb = FALSE;
         if (gBattleMons[i].volatiles.octolock && gBattleMons[i].volatiles.octolockedBy == battler)
             gBattleMons[i].volatiles.octolock = FALSE;
+        if (gBattleMons[i].volatiles.skyDropTarget == battler + 1)
+            gBattleMons[i].volatiles.skyDropTarget = 0;
     }
 
     gActionSelectionCursor[battler] = 0;
